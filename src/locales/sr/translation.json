@@ -914,6 +914,10 @@
           "toolkit": {
             "title": "AI toolkit za freelancere",
             "description": "Paket predložaka & vodiča za izgradnju skalabilnog uslužnog biznisa"
+          },
+          "contentflow": {
+            "title": "AI Sistem za Tok Sadržaja",
+            "description": "Automatizovani proces planiranja i generisanja sadržaja koristeći Notion, ChatGPT i Airtable integraciju"
           }
         }
       },
@@ -1306,7 +1310,7 @@
             "category": "Uključeno"
           },
           "strategy": {
-            "title": "BESPLATNA Stratešska sesija",
+            "title": "BESPLATNA Strateška sesija",
             "description": "Konsultacija ideja i planiranje poslovne strategije.",
             "category": "Bonus"
           }

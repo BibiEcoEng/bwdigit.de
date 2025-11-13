@@ -876,6 +876,10 @@
           "toolkit": {
             "title": "KI-Toolkit für Freiberufler",
             "description": "Bündel aus Vorlagen & Guides für den Aufbau nachhaltiger Dienstleistungsgeschäfte"
+          },
+          "contentflow": {
+            "title": "KI-Content-Flow-System",
+            "description": "Automatisierter Workflow für Content-Planung und -Erstellung mit Notion-, ChatGPT- und Airtable-Integration"
           }
         }
       },

@@ -14,6 +14,7 @@ import {
   RobertM,
   AutomationClientOnboarding,
   AiToolkitFreelancers,
+  ContentAutomation,
 } from '../assets';
 
 // Import icons
@@ -560,6 +561,11 @@ const AiAutomationPage = ({ openSidebar }) => {
               title: 'services.ai.projects.items.toolkit.title',
               description: 'services.ai.projects.items.toolkit.description',
               image: AiToolkitFreelancers,
+            },
+            {
+              title: 'services.ai.projects.items.contentflow.title',
+              description: 'services.ai.projects.items.contentflow.description',
+              image: ContentAutomation,
             },
           ].map((project, index) => (
             <div

@@ -882,6 +882,10 @@
           "toolkit": {
             "title": "AI Toolkit for Freelancers",
             "description": "Bundle of templates & guides for building a scalable service business"
+          },
+          "contentflow": {
+            "title": "AI Content Flow System",
+            "description": "Automated content planning and generation workflow using Notion, ChatGPT, and Airtable integration"
           }
         }
       },

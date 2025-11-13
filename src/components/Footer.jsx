@@ -190,7 +190,8 @@ const Footer = ({ openSidebar }) => {
             </div>
             <p className='text-gray-100 mb-6'>{t('footer.tagline')}</p>
             <div className='text-gray-100 mb-6'>
-              <p>Kolonnenstrasse 8, 10827, Berlin</p>
+              <p>Backpack Wander GmbH</p>
+              <p>Kolonnenstrasse 8, 10827 Berlin</p>
               <p>info@bwdigit.com</p>
             </div>
           </div>

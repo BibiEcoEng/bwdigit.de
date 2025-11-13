@@ -71,6 +71,7 @@ import UiDesignIntro from './images/ui-design-intro.png';
 import AiToolkitFreelancers from './images/AI Toolkit for Freelancers.png';
 import ArtisanGoods from './images/Artisan Goods.png';
 import AutomationClientOnboarding from './images/Automation for Client Onboarding.png';
+import ContentAutomation from './images/content-automation.jpg';
 import CleanBee from './images/CleanBee.png';
 import CoachingBusinessLeadGen from './images/Coaching Business Lead Generation.png';
 import DentalClinicLocalSEO from './images/Dental Clinic Local SEO.png';
@@ -153,6 +154,7 @@ export {
   AiToolkitFreelancers,
   ArtisanGoods,
   AutomationClientOnboarding,
+  ContentAutomation,
   CleanBee,
   CoachingBusinessLeadGen,
   DentalClinicLocalSEO,
