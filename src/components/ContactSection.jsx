@@ -127,7 +127,7 @@ const ContactSection = () => {
       }
     });
 
-    fetch('https://formsubmit.co/ajax/info@bwdigit.com', {
+    fetch(`https://formsubmit.co/ajax/${t('email')}`, {
       method: 'POST',
       body: formDataToSend,
       headers: {

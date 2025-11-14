@@ -236,7 +236,7 @@ const AiAutomationPage = ({ openSidebar }) => {
             return (
               <div
                 key={index}
-                className='bg-white rounded-xl p-8 shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100 group'
+                className='bg-white rounded-xl p-4 md:p-8 shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100 group'
               >
                 <div className='flex items-start gap-4 mb-6'>
                   <div className='w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0 group-hover:bg-accent/20 transition-colors'>

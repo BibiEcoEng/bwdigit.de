@@ -120,7 +120,7 @@ const Footer = ({ openSidebar }) => {
       `Email: ${email} wants to subscribe to the newsletter.`
     );
 
-    fetch('https://formsubmit.co/ajax/info@bwdigit.com', {
+    fetch(`https://formsubmit.co/ajax/${t('email')}`, {
       method: 'POST',
       body: formData,
       headers: {
@@ -192,7 +192,7 @@ const Footer = ({ openSidebar }) => {
             <div className='text-gray-100 mb-6'>
               <p>Backpack Wander GmbH</p>
               <p>Kolonnenstrasse 8, 10827 Berlin</p>
-              <p>info@bwdigit.com</p>
+              <p>{t('email')}</p>
             </div>
           </div>
 
