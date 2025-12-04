@@ -13,19 +13,19 @@ import james from './images/james.jpg';
 import greg from './images/greg.jpg';
 import trevor from './images/trevor.jpg';
 
-import paul from './images/paul.png';
-import maximilian from './images/maximilian.png';
-import marie from './images/marie.png';
+import paul from './images/paul.avif';
+import maximilian from './images/maximilian.jpg';
+import marie from './images/marie.jpg';
 import sophi from './images/sophi.png';
-import jonas from './images/jonas.png';
-import lina from './images/lina.png';
-import leon from './images/leon.png';
-import lea from './images/lea.png';
+import jonas from './images/jonas.jpg';
+import lina from './images/lina.jpg';
+import leon from './images/leon.webp';
+import lea from './images/lea.jpg';
 import hannah from './images/hannah.png';
-import finn from './images/finn.png';
-import mia from './images/mia.png';
-import lucas from './images/lucas.png';
-import emma from './images/emma.png';
+import finn from './images/finn.jpg';
+import mia from './images/mia.webp';
+import lucas from './images/lucas.jpg';
+import emma from './images/emma.avif';
 
 // Testimonial Images
 import AnaR from './images/Ana-R.png';
@@ -85,6 +85,9 @@ import SetFreeWay from './images/set-free-way.png';
 import BwDigitDe from './images/bw-digit.png';
 import BackPackWanderStore from './images/backpackwander-store.png';
 import WhatWeDeliver from './images/what-we-deliver.png';
+
+import MediCoPlus from './images/medicoplus.png';
+import UrbanNest from './images/urban-nest.png';
 
 export {
   Logo,
@@ -151,6 +154,8 @@ export {
   UiDesignHeader,
   UiDesignIntro,
   // Project Images
+  MediCoPlus,
+  UrbanNest,
   AiToolkitFreelancers,
   ArtisanGoods,
   AutomationClientOnboarding,

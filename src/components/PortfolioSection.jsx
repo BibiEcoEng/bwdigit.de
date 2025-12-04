@@ -6,6 +6,8 @@ import {
   SetFreeWay,
   BwDigitDe,
   BackPackWanderStore,
+  MediCoPlus,
+  UrbanNest,
 } from '../assets';
 
 const PROJECTS = [
@@ -33,6 +35,16 @@ const PROJECTS = [
     key: 'backpackwanderstore',
     image: BackPackWanderStore,
     url: 'https://backpackwander.store',
+  },
+  {
+    key: 'medicoplus',
+    image: MediCoPlus,
+    url: 'https://www.mimedicoplus.com/',
+  },
+  {
+    key: 'urbannest',
+    image: UrbanNest,
+    url: 'https://urbannestinteriors.co.uk/',
   },
 ];
 

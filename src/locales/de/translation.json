@@ -139,43 +139,55 @@
   "testimonialsTitle": "Was unsere Kunden sagen",
   "testimonialsSubtitle": "Unsere Kunden berichten von über 50% mehr Sichtbarkeit & Umsatz!",
   "testimonial1Client": "Paul",
-  "testimonial1Text": "BW-Digit hat unsere Online-Präsenz mit einer atemberaubenden neuen Website verwandelt. Ihr Webdesign-Team ist erstklassig!",
+  "testimonial1Text": "BW-Digit hat nicht nur unsere Website neu gestaltet, sondern unserer Marke ein modernes und frisches Erscheinungsbild verliehen. Unsere Kunden lieben das neue Design.",
   "testimonial1Service": "Webdesign",
+
   "testimonial2Client": "Maximilian",
-  "testimonial2Text": "Unsere Marketingbemühungen haben seit der Partnerschaft mit BW-Digit einen deutlichen Aufschwung erfahren. Sehr zu empfehlen ihre Marketingdienste.",
+  "testimonial2Text": "Die Zusammenarbeit mit BW-Digit hat unsere Marketingleistung deutlich verbessert. Ihre Strategien liefern schnelle und messbare Ergebnisse.",
   "testimonial2Service": "Marketing",
+
   "testimonial3Client": "Marie",
-  "testimonial3Text": "Dank BW-Digit rangiert unsere Website jetzt höher in den Suchergebnissen. Ihre SEO-Expertise ist offensichtlich.",
+  "testimonial3Text": "Wir hatten jahrelang Probleme mit unserer Sichtbarkeit, doch BW-Digit hat unsere Rankings deutlich verbessert. Unser organischer Traffic ist jetzt höher als je zuvor.",
   "testimonial3Service": "SEO",
+
   "testimonial4Client": "Sophi",
-  "testimonial4Text": "BW-Digit hat eine maßgeschneiderte Lösung entwickelt, die perfekt auf unsere einzigartigen Geschäftsanforderungen zugeschnitten ist. Außergewöhnliche Arbeit!",
-  "testimonial4Service": "Maßgeschneiderte Lösungen",
+  "testimonial4Text": "Wir benötigten eine sehr spezifische digitale Lösung, und BW-Digit hat genau das geliefert, was wir uns vorgestellt haben. Hervorragende Arbeit.",
+  "testimonial4Service": "Individuelle Lösungen",
+
   "testimonial5Client": "Jonas",
-  "testimonial5Text": "Die technische Perfektion unserer neuen Plattform ist beeindruckend. BW-Digit hat unsere Erwartungen übertroffen.",
+  "testimonial5Text": "Unsere neue Plattform läuft absolut fehlerfrei. Die technische Präzision und Professionalität von BW-Digit hat unsere Erwartungen übertroffen.",
   "testimonial5Service": "Technische Perfektion",
+
   "testimonial6Client": "Lina",
-  "testimonial6Text": "Die Zusammenarbeit mit BW-Digit an unserem Webdesign-Projekt war ein Kinderspiel. Sie sind kreativ und professionell.",
+  "testimonial6Text": "Die Zusammenarbeit war reibungslos und professionell. BW-Digit hat ein Design geschaffen, das unsere Marke perfekt widerspiegelt.",
   "testimonial6Service": "Webdesign",
+
   "testimonial7Client": "Leon",
-  "testimonial7Text": "Die Marketingstrategien von BW-Digit haben echte Ergebnisse für unser Geschäft gebracht. Wir könnten nicht glücklicher sein.",
+  "testimonial7Text": "Dank der Marketingstrategien von BW-Digit konnten wir messbares Wachstum erzielen. Unser digitales Auftreten ist jetzt viel stärker.",
   "testimonial7Service": "Marketing",
+
   "testimonial8Client": "Lea",
-  "testimonial8Text": "Unsere Sichtbarkeit in Suchmaschinen hat sich drastisch verbessert, seit wir die SEO-Dienste von BW-Digit nutzen.",
+  "testimonial8Text": "Unsere Sichtbarkeit in Suchmaschinen hat sich enorm verbessert. Das SEO-Team von BW-Digit weiß genau, was es tut.",
   "testimonial8Service": "SEO",
+
   "testimonial9Client": "Hannah",
-  "testimonial9Text": "Die von BW-Digit für uns entwickelte maßgeschneiderte Softwarelösung hat unsere Betriebsabläufe erheblich optimiert.",
-  "testimonial9Service": "Maßgeschneiderte Lösungen",
+  "testimonial9Text": "Die individuelle Softwarelösung von BW-Digit hat unsere Arbeitsabläufe optimiert und viel Zeit eingespart.",
+  "testimonial9Service": "Individuelle Lösungen",
+
   "testimonial10Client": "Finn",
-  "testimonial10Text": "BW-Digit stellt sicher, dass unsere Website einwandfrei funktioniert. Ihr Engagement für technische Perfektion ist lobenswert.",
+  "testimonial10Text": "Dank BW-Digit läuft unsere Website jederzeit zuverlässig. Ihre technische Genauigkeit ist beeindruckend.",
   "testimonial10Service": "Technische Perfektion",
+
   "testimonial11Client": "Mia",
-  "testimonial11Text": "Die von BW-Digit erbrachten Webdesign-Dienstleistungen haben unsere Erwartungen übertroffen. Unsere neue Seite ist sowohl schön als auch funktional.",
+  "testimonial11Text": "Unsere neue Website ist benutzerfreundlich, schnell und wunderschön gestaltet. BW-Digit hat unsere Erwartungen übertroffen.",
   "testimonial11Service": "Webdesign",
+
   "testimonial12Client": "Lucas",
-  "testimonial12Text": "Das Marketingteam von BW-Digit ist kompetent und effektiv. Sie haben uns geholfen, ein breiteres Publikum zu erreichen.",
+  "testimonial12Text": "Das Marketingteam von BW-Digit versteht unsere Zielgruppe sehr gut. Ihre Kampagnen haben unsere Reichweite erheblich vergrößert.",
   "testimonial12Service": "Marketing",
+
   "testimonial13Client": "Emma",
-  "testimonial13Text": "Wir sind äußerst zufrieden mit den von BW-Digit erzielten SEO-Ergebnissen. Unser organischer Traffic ist erheblich gestiegen.",
+  "testimonial13Text": "Die SEO-Optimierung von BW-Digit zeigt klare Ergebnisse. Unser organischer Traffic wächst stetig.",
   "testimonial13Service": "SEO",
   "faqTitle": "Häufig gestellte Fragen (FAQ)",
   "faqSubtitle": "Weitere Antworten findest du hier – oder kontaktiere uns direkt für weitere Fragen!",
@@ -423,6 +435,40 @@
         "title": "Backpack Wander Store",
         "description": "Umweltfreundliche, solarbetriebene Ausrüstung und Reise-Essentials für Abenteurer. Shoppe kuratierte Produkte für Camping, Wandern und nachhaltiges Reisen.",
         "tags": ["E-Commerce", "Reiseausrüstung", "Nachhaltigkeit", "Shop"],
+        "button": "Projekt ansehen"
+      },
+      "medicoplus": {
+        "title": "MedicoPlus",
+        "description": "Eine benutzerfreundliche Gesundheitswebsite mit Ärztelisten, Leistungen und Online-Terminbuchung.",
+        "tags": [
+          "Gesundheitswebseite",
+          "Online-Termine",
+          "Medizinische Dienstleistungen",
+          "Ärzteübersicht",
+          "Sauberes UI",
+          "Professionelles Design",
+          "Responsives Layout",
+          "Patientenunterstützung",
+          "Moderne Webanwendung",
+          "Einfache Navigation"
+        ],
+        "button": "Projekt ansehen"
+      },
+      "urbannest": {
+        "title": "UrbanNest Interiors",
+        "description": "Eine saubere, elegante Website für ein Innenarchitektur-Studio mit Services, Portfolio und Online-Beratung.",
+        "tags": [
+          "Innenarchitektur",
+          "Portfolio-Webseite",
+          "Modernes UI/UX",
+          "Kreativstudio",
+          "Minimalistisches Design",
+          "Responsives Webdesign",
+          "Branding & Ästhetik",
+          "Online-Beratung",
+          "Sauberes Layout",
+          "Premium-Design"
+        ],
         "button": "Projekt ansehen"
       }
     },

@@ -138,43 +138,55 @@
   "testimonialsTitle": "What Our Clients Say",
   "testimonialsSubtitle": "Our clients report over 50% more visibility & revenue!",
   "testimonial1Client": "Paul",
-  "testimonial1Text": "BW-Digit transformed our online presence with a stunning new website. Their web design team is top-notch!",
+  "testimonial1Text": "BW-Digit didn’t just redesign our website — they gave our brand a fresh and modern identity. Our customers truly love the new look.",
   "testimonial1Service": "Web Design",
+
   "testimonial2Client": "Maximilian",
-  "testimonial2Text": "Our marketing efforts have seen a significant boost since partnering with BW-Digit. Highly recommend their marketing services.",
+  "testimonial2Text": "Working with BW-Digit has noticeably improved our marketing performance. Their strategies brought real results in a short time.",
   "testimonial2Service": "Marketing",
+
   "testimonial3Client": "Marie",
-  "testimonial3Text": "Thanks to BW-Digit, our website now ranks higher in search results. Their SEO expertise is evident.",
+  "testimonial3Text": "We struggled with visibility for years, but BW-Digit significantly improved our rankings. Our organic traffic is higher than ever.",
   "testimonial3Service": "SEO",
+
   "testimonial4Client": "Sophi",
-  "testimonial4Text": "BW-Digit developed a custom solution that perfectly fits our unique business needs. Exceptional work!",
+  "testimonial4Text": "We needed a very specific digital solution, and BW-Digit delivered exactly what we envisioned. Truly exceptional work.",
   "testimonial4Service": "Custom Solutions",
+
   "testimonial5Client": "Jonas",
-  "testimonial5Text": "The technical perfection of our new platform is impressive. BW-Digit delivered beyond our expectations.",
+  "testimonial5Text": "Our new platform works flawlessly. BW-Digit’s technical expertise and attention to detail exceeded our expectations.",
   "testimonial5Service": "Technical Perfection",
+
   "testimonial6Client": "Lina",
-  "testimonial6Text": "Working with BW-Digit on our web design project was a breeze. They are creative and professional.",
+  "testimonial6Text": "The entire process was smooth and professional. BW-Digit created a design that represents our brand perfectly.",
   "testimonial6Service": "Web Design",
+
   "testimonial7Client": "Leon",
-  "testimonial7Text": "BW-Digit's marketing strategies have driven real results for our business. We couldn't be happier.",
+  "testimonial7Text": "BW-Digit’s marketing strategies brought measurable growth to our business. We finally feel confident in our online presence.",
   "testimonial7Service": "Marketing",
+
   "testimonial8Client": "Lea",
-  "testimonial8Text": "Our search engine visibility has improved dramatically since we started using BW-Digit's SEO services.",
+  "testimonial8Text": "Our search engine visibility has improved dramatically. BW-Digit’s SEO team truly knows what they’re doing.",
   "testimonial8Service": "SEO",
+
   "testimonial9Client": "Hannah",
-  "testimonial9Text": "The custom software solution BW-Digit built for us has streamlined our operations significantly.",
+  "testimonial9Text": "The custom software BW-Digit built for us has streamlined our operations and saved us valuable time.",
   "testimonial9Service": "Custom Solutions",
+
   "testimonial10Client": "Finn",
-  "testimonial10Text": "BW-Digit ensures that our website runs flawlessly. Their commitment to technical perfection is commendable.",
+  "testimonial10Text": "BW-Digit ensures that our website runs smoothly at all times. Their technical precision is impressive.",
   "testimonial10Service": "Technical Perfection",
+
   "testimonial11Client": "Mia",
-  "testimonial11Text": "The web design services provided by BW-Digit exceeded our expectations. Our new site is both beautiful and functional.",
+  "testimonial11Text": "Our new website is beautiful, fast, and user-friendly. BW-Digit exceeded our expectations in every way.",
   "testimonial11Service": "Web Design",
+
   "testimonial12Client": "Lucas",
-  "testimonial12Text": "BW-Digit's marketing team is knowledgeable and effective. They've helped us reach a wider audience.",
+  "testimonial12Text": "The marketing team at BW-Digit understands our audience well. Their campaigns helped us reach a much wider customer base.",
   "testimonial12Service": "Marketing",
+
   "testimonial13Client": "Emma",
-  "testimonial13Text": "We are extremely satisfied with the SEO results achieved by BW-Digit. Our organic traffic has increased substantially.",
+  "testimonial13Text": "BW-Digit’s SEO work has shown clear results. Our organic traffic continues to grow month after month.",
   "testimonial13Service": "SEO",
   "faqTitle": "Frequently Asked Questions (FAQ)",
   "faqSubtitle": "Find more answers here - or contact us directly for further questions!",
@@ -433,6 +445,40 @@
         "title": "Backpack Wander Store",
         "description": "Eco-friendly, solar-powered gear and travel essentials for adventurers. Shop curated products for camping, hiking, and sustainable travel.",
         "tags": ["E-commerce", "Travel Gear", "Sustainability", "Shop"],
+        "button": "View Project"
+      },
+      "medicoplus": {
+        "title": "MedicoPlus",
+        "description": "A clean and user-friendly healthcare website with doctor listings, services, and online appointment booking.",
+        "tags": [
+          "Healthcare Website",
+          "Online Appointments",
+          "Medical Services",
+          "Doctor Listing",
+          "Clean UI",
+          "Professional Design",
+          "Responsive Layout",
+          "Patient Support",
+          "Modern Web Application",
+          "Easy Navigation"
+        ],
+        "button": "View Project"
+      },
+      "urbannest": {
+        "title": "UrbanNest Interiors",
+        "description": "A clean, elegant website for an interior design studio showcasing services, portfolio, and online consultation.",
+        "tags": [
+          "Interior Design",
+          "Portfolio Website",
+          "Modern UI/UX",
+          "Creative Studio",
+          "Minimal Design",
+          "Responsive Website",
+          "Branding & Aesthetics",
+          "Consultation Booking",
+          "Clean Layout",
+          "Premium Design"
+        ],
         "button": "View Project"
       }
     },

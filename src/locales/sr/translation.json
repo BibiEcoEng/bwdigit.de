@@ -206,6 +206,40 @@
           "Prodavnica"
         ],
         "button": "Pogledaj projekat"
+      },
+      "medicoplus": {
+        "title": "MedicoPlus",
+        "description": "Čist i jednostavan zdravstveni sajt sa spiskom lekara, uslugama i online zakazivanjem.",
+        "tags": [
+          "Zdravstveni sajt",
+          "Online zakazivanje",
+          "Medicinske usluge",
+          "Lista lekara",
+          "Čist UI",
+          "Profesionalan dizajn",
+          "Responsivan raspored",
+          "Podrška pacijentima",
+          "Moderna web aplikacija",
+          "Laka navigacija"
+        ],
+        "button": "Pogledaj projekat"
+      },
+      "urbannest": {
+        "title": "UrbanNest Interiors",
+        "description": "Čista i elegantna web stranica za studio enterijer dizajna sa uslugama, portfoliom i online konsultacijama.",
+        "tags": [
+          "Enterijer dizajn",
+          "Portfolio sajt",
+          "Moderan UI/UX",
+          "Kreativni studio",
+          "Minimal dizajn",
+          "Responsivan sajt",
+          "Brending i estetika",
+          "Online konsultacije",
+          "Čist raspored",
+          "Premium dizajn"
+        ],
+        "button": "Pogledaj projekat"
       }
     },
     "ctaText": "Zanima te saradnja sa nama na tvom sledećem projektu?",
@@ -286,44 +320,56 @@
       "deliverable4": "Redovna ažuriranja"
     }
   },
-  "testimonial1Client": "Pavle",
-  "testimonial1Text": "BW-Digit je transformisao našu onlajn prisutnost zapanjujućom novom web stranicom. Njihov web dizajn tim je vrhunski!",
-  "testimonial1Service": "web dizajn",
-  "testimonial2Client": "Maksimilijan",
-  "testimonial2Text": "Naši marketing napori su doživeli značajan podstrek otkako smo partneri sa BW-Digit. Toplo preporučujemo njihove marketing usluge.",
+  "testimonial1Client": "Paul",
+  "testimonial1Text": "BW-Digit nije samo redizajnirao naš sajt — dali su nam potpuno moderan identitet. Naši klijenti zaista vole novi izgled.",
+  "testimonial1Service": "Web Dizajn",
+
+  "testimonial2Client": "Maximilian",
+  "testimonial2Text": "Saradnja sa BW-Digit timom značajno je poboljšala naše marketinške rezultate. Njihove strategije donose brze i merljive rezultate.",
   "testimonial2Service": "Marketing",
-  "testimonial3Client": "Marija",
-  "testimonial3Text": "Zahvaljujući BW-Digit, naša web stranica sada zauzima viši rang u rezultatima pretrage. Njihova SEO ekspertiza je očigledna.",
+
+  "testimonial3Client": "Marie",
+  "testimonial3Text": "Godinama smo se borili sa vidljivošću, ali BW-Digit je uspeo da unapredi naše rangiranje. Sada imamo više organskog saobraćaja nego ikada.",
   "testimonial3Service": "SEO",
-  "testimonial4Client": "Sofi",
-  "testimonial4Text": "BW-Digit je razvio prilagođeno rešenje koje savršeno odgovara našim jedinstvenim poslovnim potrebama. Izuzetan rad!",
-  "testimonial4Service": "Prilagođena rešenja",
+
+  "testimonial4Client": "Sophi",
+  "testimonial4Text": "Trebalo nam je veoma specifično digitalno rešenje, i BW-Digit je isporučio tačno ono što smo želeli. Sjajan posao.",
+  "testimonial4Service": "Prilagođena Rešenja",
+
   "testimonial5Client": "Jonas",
-  "testimonial5Text": "Tehnička perfekcija naše nove platforme je impresivna. BW-Digit je dostavio iznad naših očekivanja.",
-  "testimonial5Service": "Tehnička perfekcija",
+  "testimonial5Text": "Naša nova platforma funkcioniše savršeno. Tehnička stručnost BW-Digit tima prevazišla je naša očekivanja.",
+  "testimonial5Service": "Tehnička Perfekcija",
+
   "testimonial6Client": "Lina",
-  "testimonial6Text": "Rad sa BW-Digit na našem web dizajn projektu je bio jednostavan. Oni su kreativni i profesionalni.",
-  "testimonial6Service": "web dizajn",
+  "testimonial6Text": "Proces je bio jednostavan i profesionalan. BW-Digit je kreirao dizajn koji odlično predstavlja naš brend.",
+  "testimonial6Service": "Web Dizajn",
+
   "testimonial7Client": "Leon",
-  "testimonial7Text": "BW-Digit marketing strategije su donele stvarne rezultate za naš biznis. Ne možemo biti srećniji.",
+  "testimonial7Text": "Strategije marketinga BW-Digit tima donele su nam merljiv rast. Naše online prisustvo nikada nije bilo jače.",
   "testimonial7Service": "Marketing",
+
   "testimonial8Client": "Lea",
-  "testimonial8Text": "Naša vidljivost u pretraživačima se dramatično poboljšala otkako koristimo BW-Digit SEO usluge.",
+  "testimonial8Text": "Vidljivost našeg sajta na pretraživačima značajno se poboljšala. Njihov SEO tim zaista zna svoj posao.",
   "testimonial8Service": "SEO",
-  "testimonial9Client": "Hana",
-  "testimonial9Text": "Prilagođeno softversko rešenje koje je BW-Digit izgradio za nas značajno je racionalizovalo naše operacije.",
-  "testimonial9Service": "Prilagođena rešenja",
-  "testimonial10Client": "Fin",
-  "testimonial10Text": "BW-Digit obezbeđuje da naša web stranica radi besprekorno. Njihova posvećenost tehničkoj perfekciji je pohvalna.",
-  "testimonial10Service": "Tehnička perfekcija",
+
+  "testimonial9Client": "Hannah",
+  "testimonial9Text": "Softver koji je BW-Digit razvio za nas ubrzao je naše procese i smanjio manuelni rad.",
+  "testimonial9Service": "Prilagođena Rešenja",
+
+  "testimonial10Client": "Finn",
+  "testimonial10Text": "Naš sajt radi besprekorno zahvaljujući BW-Digit timu. Njihova tehnička preciznost je za svaku pohvalu.",
+  "testimonial10Service": "Tehnička Perfekcija",
+
   "testimonial11Client": "Mia",
-  "testimonial11Text": "web dizajn usluge koje pruža BW-Digit prevazišle su naša očekivanja. Naša nova stranica je i lepa i funkcionalna.",
-  "testimonial11Service": "web dizajn",
-  "testimonial12Client": "Luka",
-  "testimonial12Text": "BW-Digit marketing tim je kompetentan i efikasan. Pomogli su nam da dođemo do šire publike.",
+  "testimonial11Text": "Novi sajt je brz, lep i veoma jednostavan za korišćenje. BW-Digit je uradio neverovatan posao.",
+  "testimonial11Service": "Web Dizajn",
+
+  "testimonial12Client": "Lucas",
+  "testimonial12Text": "Njihove marketinške kampanje pomogle su nam da dođemo do mnogo šire publike. Sjajna saradnja.",
   "testimonial12Service": "Marketing",
-  "testimonial13Client": "Ema",
-  "testimonial13Text": "Izuzetno smo zadovoljni SEO rezultatima koje je postigao BW-Digit. Naš organski saobraćaj se značajno povećao.",
+
+  "testimonial13Client": "Emma",
+  "testimonial13Text": "Rezultati SEO optimizacije BW-Digit tima su jasno vidljivi. Organski saobraćaj stalno raste.",
   "testimonial13Service": "SEO",
   "sidebarContact": {
     "successMessage": "Vaša poruka je uspešno poslata!",
