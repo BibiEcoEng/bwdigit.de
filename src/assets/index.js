@@ -9,49 +9,6 @@ import technicalPerfection from './images/technical-perfection.png';
 import heroSearchIcon from './images/hero-search.png';
 import heroArrow from './images/hero-arrow.png';
 
-import james from './images/james.jpg';
-import greg from './images/greg.jpg';
-import trevor from './images/trevor.jpg';
-
-import paul from './images/paul.avif';
-import maximilian from './images/maximilian.jpg';
-import marie from './images/marie.jpg';
-import sophi from './images/sophi.png';
-import jonas from './images/jonas.jpg';
-import lina from './images/lina.jpg';
-import leon from './images/leon.webp';
-import lea from './images/lea.jpg';
-import hannah from './images/hannah.png';
-import finn from './images/finn.jpg';
-import mia from './images/mia.webp';
-import lucas from './images/lucas.jpg';
-import emma from './images/emma.avif';
-
-// Testimonial Images
-import AnaR from './images/Ana-R.png';
-import AnnaM from './images/Anna M.png';
-import ChristinaH from './images/Christina H.png';
-import DavidR from './images/David R.png';
-import IsabelK from './images/Isabel K.png';
-import JovanaM from './images/Jovana M.png';
-import JuliaW from './images/Julia W.png';
-import LauraH from './images/Laura H.png';
-import LauraS from './images/Laura S.png';
-import LisaF from './images/Lisa F.png';
-import MarcusK from './images/Marcus K.png';
-import MarkoB from './images/Marko B.png';
-import MarkusH from './images/Markus H.png';
-import MayaD from './images/Maya D.png';
-import MichaelS from './images/Michael S.png';
-import MiraS from './images/Mira S.png';
-import NiklasW from './images/Niklas W.png';
-import NinaL from './images/Nina L.png';
-import RobertM from './images/Robert M.png';
-import SarahM from './images/Sarah M.png';
-import ThomasB from './images/Thomas B.png';
-import ThomasG from './images/Thomas G.png';
-import TimR from './images/Tim R.png';
-
 import WebDesignHeroImg from './images/web-design-hero-img.png';
 import WebDesignIntroImg from './images/web-design-service-introduction-img.png';
 import WebDesignWhyChooseUsImg from './images/web-design-why-chose-us-img.png';
@@ -89,6 +46,14 @@ import WhatWeDeliver from './images/what-we-deliver.png';
 import MediCoPlus from './images/medicoplus.png';
 import UrbanNest from './images/urban-nest.png';
 
+import MenAvatar from './images/men-avatar.jpg';
+import WomenAvatar from './images/women-avatar.jpg';
+
+import ArozJewelry from './images/aroz-jewelry.png';
+import littlesCoffee from './images/littlesCoffee.png';
+import Klur from './images/klur.png';
+import velascaShoes from './images/velascaShoes.png';
+
 export {
   Logo,
   heroImg,
@@ -98,48 +63,14 @@ export {
   seo,
   customSolutions,
   technicalPerfection,
-  james,
-  greg,
-  trevor,
   heroSearchIcon,
   heroArrow,
-  paul,
-  maximilian,
-  marie,
-  sophi,
-  jonas,
-  lina,
-  leon,
-  lea,
-  hannah,
-  finn,
-  mia,
-  lucas,
-  emma,
-  // Testimonial Images
-  AnaR,
-  AnnaM,
-  ChristinaH,
-  DavidR,
-  IsabelK,
-  JovanaM,
-  JuliaW,
-  LauraH,
-  LauraS,
-  LisaF,
-  MarcusK,
-  MarkoB,
-  MarkusH,
-  MayaD,
-  MichaelS,
-  MiraS,
-  NiklasW,
-  NinaL,
-  RobertM,
-  SarahM,
-  ThomasB,
-  ThomasG,
-  TimR,
+  MenAvatar,
+  WomenAvatar,
+  ArozJewelry,
+  Klur,
+  littlesCoffee,
+  velascaShoes,
   WebDesignHeroImg,
   WebDesignIntroImg,
   WebDesignWhyChooseUsImg,

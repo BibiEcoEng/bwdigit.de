@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { FaClock, FaGift, FaUsers } from 'react-icons/fa';
 
 const ContactSection = () => {
   const { t } = useTranslation();
@@ -41,7 +42,7 @@ const ContactSection = () => {
           />
         </svg>
       ),
-      title: t('email'),
+      title: t('emailLabel'),
       info: t('email'),
       action: `mailto:${t('email')}`,
     },
@@ -61,7 +62,7 @@ const ContactSection = () => {
           />
         </svg>
       ),
-      title: t('phone'),
+      title: t('phoneLabel'),
       info: t('phone'),
       action: `tel:${t('phone')}`,
     },
@@ -341,6 +342,58 @@ const ContactSection = () => {
                   </div>
                 </div>
               ))}
+            </div>
+
+            {/* Why Choose Us Section */}
+            <div className='bg-white rounded-2xl p-8 shadow-md mt-6'>
+              <h3 className='text-xl font-semibold text-gray-900 mb-6 text-center'>
+                {t('contactInfo.whyChooseUs.title')}
+              </h3>
+              <div className='space-y-6'>
+                <div className='flex items-start space-x-4'>
+                  <div className='flex-shrink-0 w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center text-accent'>
+                    <FaClock className='w-6 h-6' />
+                  </div>
+                  <div>
+                    <h4 className='font-semibold text-gray-800 mb-1'>
+                      {t('contactInfo.whyChooseUs.quickResponse.title')}
+                    </h4>
+                    <p className='text-gray-600 text-sm'>
+                      {t('contactInfo.whyChooseUs.quickResponse.description')}
+                    </p>
+                  </div>
+                </div>
+
+                <div className='flex items-start space-x-4'>
+                  <div className='flex-shrink-0 w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center text-accent'>
+                    <FaGift className='w-6 h-6' />
+                  </div>
+                  <div>
+                    <h4 className='font-semibold text-gray-800 mb-1'>
+                      {t('contactInfo.whyChooseUs.freeConsultation.title')}
+                    </h4>
+                    <p className='text-gray-600 text-sm'>
+                      {t(
+                        'contactInfo.whyChooseUs.freeConsultation.description'
+                      )}
+                    </p>
+                  </div>
+                </div>
+
+                <div className='flex items-start space-x-4'>
+                  <div className='flex-shrink-0 w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center text-accent'>
+                    <FaUsers className='w-6 h-6' />
+                  </div>
+                  <div>
+                    <h4 className='font-semibold text-gray-800 mb-1'>
+                      {t('contactInfo.whyChooseUs.expertTeam.title')}
+                    </h4>
+                    <p className='text-gray-600 text-sm'>
+                      {t('contactInfo.whyChooseUs.expertTeam.description')}
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

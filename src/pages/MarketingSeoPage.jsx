@@ -2,20 +2,17 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import MarketingSeoTestimonialsSection from '../components/MarketingSeoTestimonialsSection';
+import ProjectsCarousel from '../components/ProjectsCarousel';
 import SideContact from '../components/sidebarContact/SidebarContact';
+
 import {
   SeoMarketingHeader,
   SeoMarketingIntro,
   SustainableFashionBrand,
   DentalClinicLocalSEO,
   CoachingBusinessLeadGen,
-  MiraS,
-  ThomasG,
-  JovanaM,
-  LauraS,
-  MarkusH,
-  IsabelK,
-  TimR,
+  MenAvatar,
+  WomenAvatar,
 } from '../assets';
 
 import { HiSparkles } from 'react-icons/hi';
@@ -32,6 +29,7 @@ import {
   SiCanva,
   SiOpenai,
 } from 'react-icons/si';
+import UiUxTestimonialsSection from '../components/UiUxTestimonialsSection';
 
 const MarketingSeoPage = () => {
   const navigate = useNavigate();
@@ -61,6 +59,70 @@ const MarketingSeoPage = () => {
       navigate(url);
     }
   };
+
+  const testimonials = {
+    title: 'services.uiux.testimonials.title',
+    items: [
+      { id: 'elena', image: WomenAvatar },
+      { id: 'ricardo', image: MenAvatar },
+      { id: 'sophia', image: WomenAvatar },
+      { id: 'martin', image: MenAvatar },
+      { id: 'isabella', image: WomenAvatar },
+    ],
+  };
+
+  const projectsData = [
+    {
+      key: 'edelweissBakery',
+      image: SustainableFashionBrand,
+      title: t('services.marketingSeo.projects.items.edelweissBakery.title'),
+      description: t(
+        'services.marketingSeo.projects.items.edelweissBakery.description'
+      ),
+      imageAlt: t('services.marketingSeo.projects.items.edelweissBakery.title'),
+      link: t('services.marketingSeo.projects.items.edelweissBakery.link'),
+    },
+    {
+      key: 'marganicsTextiles',
+      image: DentalClinicLocalSEO,
+      title: t('services.marketingSeo.projects.items.marganicsTextiles.title'),
+      description: t(
+        'services.marketingSeo.projects.items.marganicsTextiles.description'
+      ),
+      imageAlt: t(
+        'services.marketingSeo.projects.items.marganicsTextiles.title'
+      ),
+      link: t('services.marketingSeo.projects.items.marganicsTextiles.link'),
+    },
+    {
+      key: 'dapperMarketingClient',
+      image: CoachingBusinessLeadGen,
+      title: t(
+        'services.marketingSeo.projects.items.dapperMarketingClient.title'
+      ),
+      description: t(
+        'services.marketingSeo.projects.items.dapperMarketingClient.description'
+      ),
+      imageAlt: t(
+        'services.marketingSeo.projects.items.dapperMarketingClient.title'
+      ),
+      link: t(
+        'services.marketingSeo.projects.items.dapperMarketingClient.link'
+      ),
+    },
+    {
+      key: 'serviceBusinessPHM',
+      image: SustainableFashionBrand, // Using same image as placeholder
+      title: t('services.marketingSeo.projects.items.serviceBusinessPHM.title'),
+      description: t(
+        'services.marketingSeo.projects.items.serviceBusinessPHM.description'
+      ),
+      imageAlt: t(
+        'services.marketingSeo.projects.items.serviceBusinessPHM.title'
+      ),
+      link: t('services.marketingSeo.projects.items.serviceBusinessPHM.link'),
+    },
+  ];
 
   return (
     <div className='min-h-screen bg-gradient-to-br from-[#54BD95]/15 via-[#F7DCA1]/15 to-[#D7ABE9]/15 relative'>
@@ -118,57 +180,94 @@ const MarketingSeoPage = () => {
 
       {/* Main content */}
       <div className='container mx-auto px-4 py-16 max-w-7xl'>
-        {/* Features Section */}
-        <div className='grid md:grid-cols-2 gap-12 items-center mb-20'>
-          <div className='space-y-6'>
-            <h2 className='text-3xl font-bold text-gray-900 capitalize'>
-              {t('services.marketingSeo.features.title')}
+        {/* SEO Features Section */}
+        <div className='grid md:grid-cols-2 gap-12 items-start mb-20'>
+          <div className='space-y-6 h-full flex flex-col justify-start'>
+            <h2 className='text-3xl font-bold text-gray-900'>
+              {t('services.marketingSeo.features.items.seo.title')}
             </h2>
-            <h3 className='text-xl text-accent'>
-              {t('services.marketingSeo.features.description')}
-            </h3>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
-              {['seo', 'advertising', 'content', 'local'].map((featureKey) => (
-                <div key={featureKey} className='space-y-3'>
-                  <h4 className='font-semibold text-gray-900'>
-                    {t(
-                      `services.marketingSeo.features.items.${featureKey}.title`
-                    )}
-                  </h4>
-                  <p className='text-gray-600 text-sm'>
-                    {t(
-                      `services.marketingSeo.features.items.${featureKey}.description`
-                    )}
-                  </p>
-                  <ul className='space-y-2'>
-                    {t(
-                      `services.marketingSeo.features.items.${featureKey}.highlights`,
-                      { returnObjects: true }
-                    ).map((highlight, idx) => (
-                      <li
-                        key={idx}
-                        className='flex items-start gap-3 text-gray-700 min-w-0'
-                      >
-                        {/* Icon wrapper */}
-                        <div className='w-5 h-5 flex-shrink-0 mt-0.5 bg-accent/10 rounded-full flex items-center justify-center'>
-                          <FaCheck className='text-accent w-3.5 h-3.5' />
-                        </div>
-                        <span className='text-gray-700 text-sm'>
-                          {highlight}
-                        </span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
+            <p className='text-gray-600 text-lg'>
+              {t('services.marketingSeo.features.items.seo.description')}
+            </p>
+            <ul className='space-y-3 flex-grow'>
+              {t('services.marketingSeo.features.items.seo.highlights', {
+                returnObjects: true,
+              }).map((highlight, idx) => (
+                <li key={idx} className='flex items-start gap-3 text-gray-700'>
+                  <div className='w-5 h-5 flex-shrink-0 mt-0.5 bg-accent/10 rounded-full flex items-center justify-center'>
+                    <FaCheck className='text-accent w-3.5 h-3.5' />
+                  </div>
+                  <span className='text-gray-700'>{highlight}</span>
+                </li>
               ))}
-            </div>
+            </ul>
           </div>
-          <div className='relative w-full aspect-[4/3] md:aspect-[16/10] lg:aspect-[16/9]'>
-            <img
-              src={SeoMarketingIntro}
-              alt={t('services.marketingSeo.features.imageAlt')}
-              className='w-full h-full max-w-[500px] max-h-[500px] object-cover rounded-lg'
-            />
+          <div className='space-y-6 h-full flex flex-col justify-start'>
+            <h2 className='text-3xl font-bold text-gray-900'>
+              {t('services.marketingSeo.features.items.advertising.title')}
+            </h2>
+            <p className='text-gray-600 text-lg'>
+              {t(
+                'services.marketingSeo.features.items.advertising.description'
+              )}
+            </p>
+            <ul className='space-y-3 flex-grow'>
+              {t(
+                'services.marketingSeo.features.items.advertising.highlights',
+                { returnObjects: true }
+              ).map((highlight, idx) => (
+                <li key={idx} className='flex items-start gap-3 text-gray-700'>
+                  <div className='w-5 h-5 flex-shrink-0 mt-0.5 bg-accent/10 rounded-full flex items-center justify-center'>
+                    <FaCheck className='text-accent w-3.5 h-3.5' />
+                  </div>
+                  <span className='text-gray-700'>{highlight}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+
+        {/* Content and Local SEO Section - Swapped positions */}
+        <div className='grid md:grid-cols-2 gap-12 items-start mb-20'>
+          <div className='space-y-6 h-full flex flex-col justify-start'>
+            <h2 className='text-3xl font-bold text-gray-900'>
+              {t('services.marketingSeo.features.items.local.title')}
+            </h2>
+            <p className='text-gray-600 text-lg'>
+              {t('services.marketingSeo.features.items.local.description')}
+            </p>
+            <ul className='space-y-3 flex-grow'>
+              {t('services.marketingSeo.features.items.local.highlights', {
+                returnObjects: true,
+              }).map((highlight, idx) => (
+                <li key={idx} className='flex items-start gap-3 text-gray-700'>
+                  <div className='w-5 h-5 flex-shrink-0 mt-0.5 bg-accent/10 rounded-full flex items-center justify-center'>
+                    <FaCheck className='text-accent w-3.5 h-3.5' />
+                  </div>
+                  <span className='text-gray-700'>{highlight}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className='space-y-6 h-full flex flex-col justify-start'>
+            <h2 className='text-3xl font-bold text-gray-900'>
+              {t('services.marketingSeo.features.items.content.title')}
+            </h2>
+            <p className='text-gray-600 text-lg'>
+              {t('services.marketingSeo.features.items.content.description')}
+            </p>
+            <ul className='space-y-3 flex-grow'>
+              {t('services.marketingSeo.features.items.content.highlights', {
+                returnObjects: true,
+              }).map((highlight, idx) => (
+                <li key={idx} className='flex items-start gap-3 text-gray-700'>
+                  <div className='w-5 h-5 flex-shrink-0 mt-0.5 bg-accent/10 rounded-full flex items-center justify-center'>
+                    <FaCheck className='text-accent w-3.5 h-3.5' />
+                  </div>
+                  <span className='text-gray-700'>{highlight}</span>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
 
@@ -371,73 +470,7 @@ const MarketingSeoPage = () => {
         </div>
 
         {/* Testimonials Section */}
-        <MarketingSeoTestimonialsSection
-          testimonials={{
-            title: 'services.marketingSeo.testimonials.title',
-            items: [
-              {
-                id: 'mira',
-                image: MiraS,
-                author: 'services.marketingSeo.testimonials.items.mira.author',
-                position:
-                  'services.marketingSeo.testimonials.items.mira.position',
-                quote: 'services.marketingSeo.testimonials.items.mira.quote',
-              },
-              {
-                id: 'thomas',
-                image: ThomasG,
-                author:
-                  'services.marketingSeo.testimonials.items.thomas.author',
-                position:
-                  'services.marketingSeo.testimonials.items.thomas.position',
-                quote: 'services.marketingSeo.testimonials.items.thomas.quote',
-              },
-              {
-                id: 'jovana',
-                image: JovanaM,
-                author:
-                  'services.marketingSeo.testimonials.items.jovana.author',
-                position:
-                  'services.marketingSeo.testimonials.items.jovana.position',
-                quote: 'services.marketingSeo.testimonials.items.jovana.quote',
-              },
-              {
-                id: 'laura',
-                image: LauraS,
-                author: 'services.marketingSeo.testimonials.items.laura.author',
-                position:
-                  'services.marketingSeo.testimonials.items.laura.position',
-                quote: 'services.marketingSeo.testimonials.items.laura.quote',
-              },
-              {
-                id: 'markus',
-                image: MarkusH,
-                author:
-                  'services.marketingSeo.testimonials.items.markus.author',
-                position:
-                  'services.marketingSeo.testimonials.items.markus.position',
-                quote: 'services.marketingSeo.testimonials.items.markus.quote',
-              },
-              {
-                id: 'isabel',
-                image: IsabelK,
-                author:
-                  'services.marketingSeo.testimonials.items.isabel.author',
-                position:
-                  'services.marketingSeo.testimonials.items.isabel.position',
-                quote: 'services.marketingSeo.testimonials.items.isabel.quote',
-              },
-              {
-                id: 'tim',
-                image: TimR,
-                author: 'services.marketingSeo.testimonials.items.tim.author',
-                position:
-                  'services.marketingSeo.testimonials.items.tim.position',
-                quote: 'services.marketingSeo.testimonials.items.tim.quote',
-              },
-            ],
-          }}
-        />
+        <UiUxTestimonialsSection testimonials={testimonials} />
 
         {/* Projects Section */}
         <div id='projects-section' className='mb-20 scroll-mt-24'>
@@ -449,66 +482,7 @@ const MarketingSeoPage = () => {
               {t('services.marketingSeo.projects.subtitle')}
             </p>
           </div>
-          <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
-            {[
-              { key: 'sustainable', image: SustainableFashionBrand },
-              { key: 'dental', image: DentalClinicLocalSEO },
-              { key: 'coaching', image: CoachingBusinessLeadGen },
-            ].map(({ key, image }) => (
-              <div
-                key={key}
-                className='group relative overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-accent/30'
-              >
-                <div className='aspect-[4/3] w-full'>
-                  <img
-                    src={image}
-                    alt={t(`services.marketingSeo.projects.items.${key}.title`)}
-                    className='w-full h-full object-cover'
-                  />
-                </div>
-                {/* Badge - only visible on mobile */}
-                <div className='absolute top-4 right-4 bg-accent text-white text-xs font-bold px-3 py-1 rounded-full md:hidden'>
-                  View Case Study
-                </div>
-                {/* Mobile/Tablet view - Always visible on small/medium screens */}
-                <div className='block lg:hidden bg-white p-6 border-t border-gray-100'>
-                  <h3 className='text-xl font-bold text-gray-900 mb-3'>
-                    {t(`services.marketingSeo.projects.items.${key}.title`)}
-                  </h3>
-                  <p className='text-gray-600 text-sm mb-4'>
-                    {t(
-                      `services.marketingSeo.projects.items.${key}.description`
-                    )}
-                  </p>
-                  <button className='text-accent hover:text-accent/80 flex items-center gap-2 group font-medium'>
-                    See full case study
-                    <FaArrowRight className='text-sm group-hover:translate-x-1 transition-transform duration-300' />
-                  </button>
-                </div>
-                {/* Desktop view - Hover effect */}
-                <div
-                  className='hidden lg:block absolute inset-0 bg-gradient-to-t from-[#09043C] via-[#09043C]/70 to-transparent 
-                      opacity-0 group-hover:opacity-100 transition-all duration-500 
-                      transform translate-y-full group-hover:translate-y-0'
-                >
-                  <div className='absolute bottom-0 left-0 right-0 p-8'>
-                    <h3 className='text-2xl font-bold text-white mb-4 border-b border-white/20 pb-2 inline-block'>
-                      {t(`services.marketingSeo.projects.items.${key}.title`)}
-                    </h3>
-                    <p className='text-gray-200 text-base mb-6'>
-                      {t(
-                        `services.marketingSeo.projects.items.${key}.description`
-                      )}
-                    </p>
-                    <button className='px-4 py-2 bg-accent hover:bg-accent/90 text-white rounded-lg font-medium inline-flex items-center gap-2 transition-all duration-300 text-sm'>
-                      View full case study
-                      <FaArrowRight className='text-sm group-hover:translate-x-1 transition-transform duration-300' />
-                    </button>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+          <ProjectsCarousel projects={projectsData} />
         </div>
 
         {/* Internal Links Section */}

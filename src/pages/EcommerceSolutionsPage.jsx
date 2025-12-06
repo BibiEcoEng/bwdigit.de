@@ -1,18 +1,16 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import EcommerceTestimonialsSection from '../components/EcommerceTestimonialsSection';
+import ProjectsCarousel from '../components/ProjectsCarousel';
 import SideContact from '../components/sidebarContact/SidebarContact';
+
 import {
   EcommerceHeader,
   EcommerceIntro,
   GreenFitStore,
   ArtisanGoods,
-  MayaD,
-  NiklasW,
-  MarkoB,
-  IsabelK,
-  JovanaM,
+  MenAvatar,
+  WomenAvatar,
 } from '../assets';
 
 // Import icons
@@ -46,6 +44,7 @@ import {
   SiPaypal,
   SiKlarna,
 } from 'react-icons/si';
+import UiUxTestimonialsSection from '../components/UiUxTestimonialsSection';
 
 const EcommerceSolutionsPage = () => {
   const navigate = useNavigate();
@@ -53,45 +52,52 @@ const EcommerceSolutionsPage = () => {
   const [isContactOpen, setIsContactOpen] = useState(false);
 
   const testimonials = {
-    title: 'services.ecommerce.testimonials.title',
+    title: 'services.uiux.testimonials.title',
     items: [
-      {
-        id: 'maya',
-        image: MayaD,
-        author: 'services.ecommerce.testimonials.items.maya.author',
-        position: 'services.ecommerce.testimonials.items.maya.position',
-        quote: 'services.ecommerce.testimonials.items.maya.quote',
-      },
-      {
-        id: 'niklas',
-        image: NiklasW,
-        author: 'services.ecommerce.testimonials.items.niklas.author',
-        position: 'services.ecommerce.testimonials.items.niklas.position',
-        quote: 'services.ecommerce.testimonials.items.niklas.quote',
-      },
-      {
-        id: 'marko',
-        image: MarkoB,
-        author: 'services.ecommerce.testimonials.items.marko.author',
-        position: 'services.ecommerce.testimonials.items.marko.position',
-        quote: 'services.ecommerce.testimonials.items.marko.quote',
-      },
-      {
-        id: 'isabel',
-        image: IsabelK,
-        author: 'services.ecommerce.testimonials.items.isabel.author',
-        position: 'services.ecommerce.testimonials.items.isabel.position',
-        quote: 'services.ecommerce.testimonials.items.isabel.quote',
-      },
-      {
-        id: 'jovana',
-        image: JovanaM,
-        author: 'services.ecommerce.testimonials.items.jovana.author',
-        position: 'services.ecommerce.testimonials.items.jovana.position',
-        quote: 'services.ecommerce.testimonials.items.jovana.quote',
-      },
+      { id: 'elena', image: WomenAvatar },
+      { id: 'ricardo', image: MenAvatar },
+      { id: 'sophia', image: WomenAvatar },
+      { id: 'martin', image: MenAvatar },
+      { id: 'isabella', image: WomenAvatar },
     ],
   };
+
+  const projectsData = [
+    {
+      key: 'tentree',
+      image: GreenFitStore,
+      title: t('services.ecommerce.projects.items.tentree.title'),
+      description: t('services.ecommerce.projects.items.tentree.description'),
+      imageAlt: t('services.ecommerce.projects.items.tentree.title'),
+      link: t('services.ecommerce.projects.items.tentree.link'),
+    },
+    {
+      key: 'allbirds',
+      image: ArtisanGoods,
+      title: t('services.ecommerce.projects.items.allbirds.title'),
+      description: t('services.ecommerce.projects.items.allbirds.description'),
+      imageAlt: t('services.ecommerce.projects.items.allbirds.title'),
+      link: t('services.ecommerce.projects.items.allbirds.link'),
+    },
+    {
+      key: 'flyingTiger',
+      image: GreenFitStore, // Using same image as placeholder
+      title: t('services.ecommerce.projects.items.flyingTiger.title'),
+      description: t(
+        'services.ecommerce.projects.items.flyingTiger.description'
+      ),
+      imageAlt: t('services.ecommerce.projects.items.flyingTiger.title'),
+      link: t('services.ecommerce.projects.items.flyingTiger.link'),
+    },
+    {
+      key: 'blume',
+      image: ArtisanGoods, // Using same image as placeholder
+      title: t('services.ecommerce.projects.items.blume.title'),
+      description: t('services.ecommerce.projects.items.blume.description'),
+      imageAlt: t('services.ecommerce.projects.items.blume.title'),
+      link: t('services.ecommerce.projects.items.blume.link'),
+    },
+  ];
 
   const featureIcons = {
     [t('services.ecommerce.features.items.store.title')]: FaStore,
@@ -572,64 +578,14 @@ const EcommerceSolutionsPage = () => {
               {t('services.ecommerce.projects.title')}
             </h2>
             <p className='text-lg text-gray-600'>
-              {t('services.ecommerce.projects.description')}
+              {t('services.ecommerce.projects.subtitle')}
             </p>
           </div>
-          <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
-            {[
-              { key: 'greenfit', image: GreenFitStore },
-              { key: 'artisan', image: ArtisanGoods },
-            ].map(({ key, image }) => (
-              <div
-                key={key}
-                className='group relative overflow-hidden rounded-lg'
-              >
-                <div className='aspect-[4/3] w-full'>
-                  <img
-                    src={image}
-                    alt={t(`services.ecommerce.projects.items.${key}.title`)}
-                    className='w-full h-full object-cover'
-                  />
-                </div>
-                {/* Mobile/Tablet view - Always visible on small/medium screens */}
-                <div className='block lg:hidden bg-white p-4 border border-gray-100'>
-                  <span className='text-xs font-medium text-accent uppercase tracking-wider mb-1 block'>
-                    {t(`services.ecommerce.projects.items.${key}.type`)}
-                  </span>
-                  <h3 className='text-lg font-semibold text-gray-900 mb-2'>
-                    {t(`services.ecommerce.projects.items.${key}.title`)}
-                  </h3>
-                  <p className='text-gray-600 text-sm'>
-                    {t(`services.ecommerce.projects.items.${key}.description`)}
-                  </p>
-                </div>
-                {/* Desktop view - Hover effect */}
-                <div
-                  className='hidden lg:block absolute inset-0 bg-gradient-to-t from-[#09043C] via-[#09043C]/50 to-transparent 
-                    opacity-0 group-hover:opacity-100 transition-all duration-500 
-                    transform translate-y-full group-hover:translate-y-0'
-                >
-                  <div className='absolute bottom-0 left-0 right-0 p-6'>
-                    <span className='text-xs font-medium text-accent uppercase tracking-wider mb-1 block'>
-                      {t(`services.ecommerce.projects.items.${key}.type`)}
-                    </span>
-                    <h3 className='text-xl font-semibold text-white mb-2'>
-                      {t(`services.ecommerce.projects.items.${key}.title`)}
-                    </h3>
-                    <p className='text-gray-200'>
-                      {t(
-                        `services.ecommerce.projects.items.${key}.description`
-                      )}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+          <ProjectsCarousel projects={projectsData} />
         </div>
 
         {/* Testimonials Section */}
-        <EcommerceTestimonialsSection testimonials={testimonials} />
+        <UiUxTestimonialsSection testimonials={testimonials} />
 
         {/* Final CTA Section */}
         <div className='bg-gradient-to-br from-[#09043C] to-[#1B0E63] text-white rounded-xl sm:rounded-2xl p-6 sm:p-8 md:p-12 lg:p-16 mb-8 sm:mb-12 md:mb-16 lg:mb-20'>

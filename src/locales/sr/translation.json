@@ -111,7 +111,9 @@
   "contactTitle": "Kontakt",
   "contactSubtitle": "Počni već danas i zakaži svoju besplatnu početnu konsultaciju!",
   "email": "info@bwdigit.rs",
+  "emailLabel": "E-mail",
   "phone": "+49 172 8137111",
+  "phoneLabel": "Telefon",
   "privacyPolicyTitle": "Politika privatnosti",
   "privacyPolicyHeroSubtitle": "Vaše poverenje i bezbednost podataka su nam najvažniji.",
   "footer.newsletterSuccess": "Uspešno ste se pretplatili na naš bilten!",
@@ -320,57 +322,59 @@
       "deliverable4": "Redovna ažuriranja"
     }
   },
-  "testimonial1Client": "Paul",
-  "testimonial1Text": "BW-Digit nije samo redizajnirao naš sajt — dali su nam potpuno moderan identitet. Naši klijenti zaista vole novi izgled.",
+
+  "testimonial1Client": "Daniel Carter",
+  "testimonial1Text": "BW-Digit nam nije samo redizajnirao sajt — modernizovali su ceo naš brend. Klijenti su odmah primetili pozitivnu promenu.",
   "testimonial1Service": "Web Dizajn",
 
-  "testimonial2Client": "Maximilian",
-  "testimonial2Text": "Saradnja sa BW-Digit timom značajno je poboljšala naše marketinške rezultate. Njihove strategije donose brze i merljive rezultate.",
+  "testimonial2Client": "Markus Weber",
+  "testimonial2Text": "Saradnja sa BW-Digit timom značajno je poboljšala naše marketinške rezultate. Merljivi efekti su se pojavili veoma brzo.",
   "testimonial2Service": "Marketing",
 
-  "testimonial3Client": "Marie",
-  "testimonial3Text": "Godinama smo se borili sa vidljivošću, ali BW-Digit je uspeo da unapredi naše rangiranje. Sada imamo više organskog saobraćaja nego ikada.",
+  "testimonial3Client": "Isabella Hughes",
+  "testimonial3Text": "Godinama smo imali slabu vidljivost online, ali BW-Digit je uspeo da podigne naše rangiranje i organski saobraćaj.",
   "testimonial3Service": "SEO",
 
-  "testimonial4Client": "Sophi",
-  "testimonial4Text": "Trebalo nam je veoma specifično digitalno rešenje, i BW-Digit je isporučio tačno ono što smo želeli. Sjajan posao.",
+  "testimonial4Client": "Sophia Klein",
+  "testimonial4Text": "Trebao nam je potpuno prilagođen digitalni sistem, a BW-Digit je isporučio tačno ono što smo želeli. Detalji su urađeni savršeno.",
   "testimonial4Service": "Prilagođena Rešenja",
 
-  "testimonial5Client": "Jonas",
-  "testimonial5Text": "Naša nova platforma funkcioniše savršeno. Tehnička stručnost BW-Digit tima prevazišla je naša očekivanja.",
+  "testimonial5Client": "Jonathan Reed",
+  "testimonial5Text": "Nova platforma radi besprekorno. Tehnička stručnost BW-Digita vidi se u svakom segmentu projekta.",
   "testimonial5Service": "Tehnička Perfekcija",
 
-  "testimonial6Client": "Lina",
-  "testimonial6Text": "Proces je bio jednostavan i profesionalan. BW-Digit je kreirao dizajn koji odlično predstavlja naš brend.",
+  "testimonial6Client": "Elena Schneider",
+  "testimonial6Text": "Proces je bio profesionalan i veoma organizovan. BW-Digit je kreirao dizajn koji savršeno odražava naš brend.",
   "testimonial6Service": "Web Dizajn",
 
-  "testimonial7Client": "Leon",
-  "testimonial7Text": "Strategije marketinga BW-Digit tima donele su nam merljiv rast. Naše online prisustvo nikada nije bilo jače.",
+  "testimonial7Client": "Leonard Fischer",
+  "testimonial7Text": "Zahvaljujući BW-Digit timu, naše online prisustvo je stabilno i beležimo konstantan rast.",
   "testimonial7Service": "Marketing",
 
-  "testimonial8Client": "Lea",
-  "testimonial8Text": "Vidljivost našeg sajta na pretraživačima značajno se poboljšala. Njihov SEO tim zaista zna svoj posao.",
+  "testimonial8Client": "Natalie Brooks",
+  "testimonial8Text": "Vidljivost na pretraživačima nam se znatno poboljšala. SEO strategije BW-Digita daju jasne rezultate.",
   "testimonial8Service": "SEO",
 
-  "testimonial9Client": "Hannah",
-  "testimonial9Text": "Softver koji je BW-Digit razvio za nas ubrzao je naše procese i smanjio manuelni rad.",
+  "testimonial9Client": "Hannah Mitchell",
+  "testimonial9Text": "Prilagođeni softver koji su razvili značajno nam je pojednostavio procese i uštedeo vreme.",
   "testimonial9Service": "Prilagođena Rešenja",
 
-  "testimonial10Client": "Finn",
-  "testimonial10Text": "Naš sajt radi besprekorno zahvaljujući BW-Digit timu. Njihova tehnička preciznost je za svaku pohvalu.",
+  "testimonial10Client": "Frederick Adams",
+  "testimonial10Text": "BW-Digit održava naš sajt brzim, sigurnim i stabilnim. Njihova tehnička preciznost nam uliva potpuno poverenje.",
   "testimonial10Service": "Tehnička Perfekcija",
 
-  "testimonial11Client": "Mia",
-  "testimonial11Text": "Novi sajt je brz, lep i veoma jednostavan za korišćenje. BW-Digit je uradio neverovatan posao.",
+  "testimonial11Client": "Victoria Collins",
+  "testimonial11Text": "Naš novi sajt izgleda moderno, radi brzo i veoma je jednostavan za korišćenje. BW-Digit je nadmašio naša očekivanja.",
   "testimonial11Service": "Web Dizajn",
 
-  "testimonial12Client": "Lucas",
-  "testimonial12Text": "Njihove marketinške kampanje pomogle su nam da dođemo do mnogo šire publike. Sjajna saradnja.",
+  "testimonial12Client": "Lucas Bennett",
+  "testimonial12Text": "BW-Digit odlično razume našu ciljnu grupu. Njihove kampanje su nam donele veću vidljivost i konstantan rast.",
   "testimonial12Service": "Marketing",
 
-  "testimonial13Client": "Emma",
-  "testimonial13Text": "Rezultati SEO optimizacije BW-Digit tima su jasno vidljivi. Organski saobraćaj stalno raste.",
+  "testimonial13Client": "Emma Richardson",
+  "testimonial13Text": "Organski saobraćaj nam stalno raste zahvaljujući kvalitetnoj SEO optimizaciji BW-Digit tima.",
   "testimonial13Service": "SEO",
+
   "sidebarContact": {
     "successMessage": "Vaša poruka je uspešno poslata!",
     "errorMessage": "Nešto je pošlo po zlo. Molimo pokušajte ponovo.",
@@ -512,7 +516,7 @@
     },
     "businessHours": {
       "title": "Radno vreme",
-      "info": "Pon-Pet: 9-18 EST"
+      "info": "Pon-Pet: 9-18 CET"
     },
     "whyChooseUs": {
       "title": "Zašto nas izabrati?",
@@ -644,7 +648,7 @@
       },
       "specialOffer": {
         "badge": "Spezielles Angebot",
-        "title": "UI/UX redizajn landing stranica koje donose konverzije",
+        "title": "UI/UX redizajn landing stra­nica koje donose konverzije",
         "subtitle": "Trebaš bolje rezultate od svoje landing stranice? Mučiš se sa niskom stopom konverzije? Hajde da to rešimo.",
         "description": "Stranica će vizuelno pratiti tvoj brend, brzo se učitavati i privući više klikova. Uključeno u uslugu:",
         "features": {
@@ -670,23 +674,28 @@
         }
       },
       "projects": {
-        "title": "Pravi UI/UX projekti, pravi rezultati",
-        "subtitle": "Od SaaS kontrolnih tabli do e-commerce tokova, naš dizajn pomaže klijentima da poboljšaju jasnoću, smanje broj odustajanja i rastu na održiv način. Svaki dizajn je pažljivo kreiran da usmeri korisnike ka akciji i pomogne klijentima da postignu merljiv rast.",
+        "title": "Stvarni sajtovi malih firmi za inspiraciju",
+        "subtitle": "Butični dućani, male firme i nišni brendovi sa čistim UX-om, modernim dizajnom i solidnom upotrebljivošću — korisne reference za web, e-commerce, mobilne ili servis projekte.",
         "items": {
-          "swiftshop": {
-            "title": "SwiftShop mobilna aplikacija",
-            "description": "E‑Commerce aplikacija sa QR skeniranjem proizvoda i sinhronizovanom korpom",
-            "imageAlt": "ručno kodiran sajt prilagođen tvom biznisu"
+          "klurBeauty": {
+            "title": "Klur Skincare",
+            "description": "Minimalistički sajt beauty i skincare brenda — miran dizajn, čist raspored i korisnički-prijatan e-commerce proces.",
+            "link": "https://klur.co/"
           },
-          "artisan": {
-            "title": "Artisan Goods marketplace",
-            "description": "Platforma za više prodavaca sa prilagođenim rešenjima za plaćanje",
-            "imageAlt": "responzivni web razvoj koji radi na svim uređajima"
+          "arozJewelry": {
+            "title": "ArozJewelry Boutique",
+            "description": "E-commerce prodavnica nakita sa urednim grid-om proizvoda, elegantnim slikama i glatkim procesom kupovine.",
+            "link": "https://arozjewelry.com/"
           },
-          "greenfit": {
-            "title": "GreenFit prodavnica",
-            "description": "WooCommerce prodavnica sa automatskim upravljanjem zalihama",
-            "imageAlt": "brzo učitavanje i prilagođen izgled sajta za tebe"
+          "littlesCoffee": {
+            "title": "Little’s Coffee Roasters",
+            "description": "Mali coffee-roaster sajt sa primamljivim vizuelima, jasnim kategorijama/menijem i jednostavnom navigacijom — pogodno za biznise iz hrane/pica-usluga.",
+            "link": "https://wearelittles.com/"
+          },
+          "velascaShoes": {
+            "title": "Velasca Leather Goods",
+            "description": "Butična prodavnica ručno rađenih kožnih cipela & aksesoara – vrhunski dizajn, dobra prezentacija proizvoda i intuitivno pregledanje ponude.",
+            "link": "https://velasca.com/"
           }
         }
       },
@@ -716,73 +725,33 @@
         "conversion": "Konverzija"
       },
       "testimonials": {
-        "title": "Šta klijenti kažu o našem UI/UX dizajnu",
-        "subtitle": "Pravi komentari klijenata kojima smo pomogli da unaprede svoje sajtove, aplikacije i korisnička iskustva. Pogledaj šta kažu klijenti koji su udvostručili stopu konverzije i smanjili bounce rate za 40% nakon redizajna sa UI/UX stručnjacima iz BW Digit-a:",
+        "title": "Šta klijenti kažu o saradnji sa BW Digit timom",
+        "subtitle": "Pravi komentari kompanija i profesionalaca koji su BW Digit poverili svoje digitalne projekte, od web razvoja i mobilnih aplikacija do UI/UX dizajna, e-commerce rešenja i AI tehnologija.",
         "items": {
-          "ana": {
-            "author": "Ana R.",
-            "position": "Product Manager",
-            "quote": "BW Digit je transformisao korisničko iskustvo našeg proizvoda. Novi dizajn nije samo lep, već je značajno poboljšao naše metrike angažovanja."
+          "elena": {
+            "author": "Elena Martinez",
+            "position": "Menadžer operacija",
+            "quote": "Saradnja sa BW Digit timom bila je veoma jednostavna i profesionalna. Njihov pristup i razumevanje naših potreba doneli su vidljive rezultate."
           },
-          "thomas": {
-            "author": "Thomas B.",
-            "position": "CEO i osnivač",
-            "quote": "Njihova stručnost u UI/UX dizajnu pomogla nam je da kreiramo intuitivan i moderan interfejs koji naši korisnici obožavaju. Rezultati su premašili naša očekivanja."
-          },
-          "julia": {
-            "author": "Julia W.",
-            "position": "Marketing direktor",
-            "quote": "Rad sa BW Digit-om je promenio naš digitalni nastup. Njihov dizajnerski pristup savršeno balansira estetiku i funkcionalnost."
-          },
-          "maya": {
-            "author": "Maya D.",
-            "position": "UX lider",
-            "quote": "Pažnja na detalje i korisnički orijentisan pristup pomogli su nam da kreiramo proizvod koji zaista odjekuje kod naše ciljne publike."
-          },
-          "laura": {
-            "author": "Laura H.",
-            "position": "E‑Commerce menadžer",
-            "quote": "Naše stope konverzije su značajno porasle nakon primene UI/UX preporuka BW Digit-а. Njihovo iskustvo u eCommerce dizajnu je izvanredno."
-          },
-          "nina": {
-            "author": "Nina L.",
-            "position": "Produkt menadžer",
-            "quote": "BW Digit je našu ideju pretvorio u elegantnu, modernu aplikaciju koju korisnici vole. Cenili smo redovna ažuriranja i odličan dizajn."
-          },
-          "marko": {
-            "author": "Marko B.",
+          "ricardo": {
+            "author": "Ricardo Leuven",
             "position": "Osnivač startapa",
-            "quote": "Od wireframe-ova do App Store-a, sve su besprekorno vodili. Sjajan tim, vrlo komunikativan."
+            "quote": "BW Digit nas je podržao u svim fazama – od ideje do finalnog rešenja. Bez obzira na vrstu projekta, isporučili su kvalitet i stabilnost."
           },
-          "jovana": {
-            "author": "Jovana M.",
-            "position": "Marketing direktor",
-            "quote": "Njihova ekspertiza u razvoju mobilnih aplikacija nam je pomogla da kreiramo intuitivnu i user-friendly aplikaciju koju naši klijenti vole."
+          "sophia": {
+            "author": "Sophia Klein",
+            "position": "Direktor digitalne strategije",
+            "quote": "Tim poseduje snažno razumevanje savremenih tehnologija. BW Digit nam je pomogao da poboljšamo performanse na više digitalnih kanala."
           },
-          "lauras": {
-            "author": "Laura S.",
-            "position": "Marketing menadžer u B2B Solutions",
-            "quote": "Aplikacija koju su razvili je optimizovala naše poslovne procese i značajno poboljšala zadovoljstvo klijenata."
+          "martin": {
+            "author": "Martin Schneider",
+            "position": "Direktor projekta",
+            "quote": "Pouzdan partner sa odličnom komunikacijom. BW Digit je sa preciznošću upravljao svakim aspektom projekta – od planiranja do završetka."
           },
-          "markus": {
-            "author": "Markus H.",
-            "position": "CEO IndustrialTech GmbH",
-            "quote": "BW Digit-ova tehnička ekspertiza i razumevanje potreba naše industrije rezultirali su moćnim mobilnim rešenjem."
-          },
-          "isabel": {
-            "author": "Isabel K.",
-            "position": "Email marketing specijalista u RetailCo",
-            "quote": "Integracija mobilne aplikacije sa našim marketing alatima je bila besprekorna. Odličan posao!"
-          },
-          "tim": {
-            "author": "Tim R.",
-            "position": "Performance Marketing Lead u D2C Brand",
-            "quote": "Izvanredna usluga razvoja mobilnih aplikacija. Isporučili su tačno ono što nam je trebalo, na vreme i u okviru budžeta."
-          },
-          "anna": {
-            "author": "Anna M.",
-            "position": "Vlasnica wellness studija",
-            "quote": "Aplikacija je transformisala način na koji komuniciramo sa našim klijentima. Rezervacije i upravljanje nikada nisu bili lakši."
+          "isabella": {
+            "author": "Isabella Fischer",
+            "position": "Vlasnica e-commerce prodavnice",
+            "quote": "Isporučili su rešenje koje je stabilno, intuitivno i prilagođeno korisnicima. BW Digit je doprineo našem rastu i boljem iskustvu kupaca."
           }
         }
       },
@@ -950,20 +919,28 @@
         }
       },
       "projects": {
-        "title": "Istaknuti projekti",
-        "subtitle": "Istraži naše uspešne AI‑automatizacijske implementacije",
+        "title": "Istaknuti AI & Automacioni Projekti",
+        "subtitle": "Živi alati i integracije koji pokazuju realne primene AI‑i automatizacije poslovnih i marketinških procesa",
         "items": {
-          "onboarding": {
-            "title": "Automatizacija onboarding‑a klijenata",
-            "description": "Prilagođeno Notion + Zapier rešenje za coaching biznis"
+          "zapierAiMailchimp": {
+            "title": "AI‑vođena E‑mail Automatizacija (Zapier + Mailchimp)",
+            "description": "AI by Zapier integrisan sa Mailchimp‑om za automatizaciju kampanja, segmentaciju kontakata i automatizovane komunikacione tokove.",
+            "link": "https://zapier.com/apps/mailchimp/integrations/ai"
           },
-          "toolkit": {
-            "title": "AI toolkit za freelancere",
-            "description": "Paket predložaka & vodiča za izgradnju skalabilnog uslužnog biznisa"
+          "makeMailchimp": {
+            "title": "Vizuelna Workflow Automatizacija (Make.com + Mailchimp)",
+            "description": "No‑Code automatizaciona platforma (Make.com) za kreiranje višestepenih workflow‑a sa e‑mailom, CRM‑om, sinhronizacijom podataka i poslovnom logikom.",
+            "link": "https://www.make.com/en/integrations/mailchimp"
           },
-          "contentflow": {
-            "title": "AI Sistem za Tok Sadržaja",
-            "description": "Automatizovani proces planiranja i generisanja sadržaja koristeći Notion, ChatGPT i Airtable integraciju"
+          "mailchimpAutomation": {
+            "title": "Ugrađena Marketinška Automatizacija (Mailchimp)",
+            "description": "Native Mailchimp funkcije za automatizaciju marketinga — automatizovani e‑mail tokovi, trigger‑i po ponašanju korisnika i upravljanje kampanjama.",
+            "link": "https://mailchimp.com/automations/"
+          },
+          "zapierIntegration": {
+            "title": "Opšta No‑Code Automatizacija (Zapier)",
+            "description": "Zapier‑ovi templates za integraciju AI alata, e‑mail servisa, CRM‑a i drugih aplikacija — pogodna za male firme koje žele da automatizuju procese bez kodiranja.",
+            "link": "https://zapier.com"
           }
         }
       },
@@ -1116,20 +1093,27 @@
         }
       },
       "projects": {
-        "title": "Uspešne priče",
+        "title": "Uspešni Primeri Mobile App Razvoja",
         "items": {
-          "swiftshop": {
-            "title": "SwiftShop",
-            "description": "Cross-platform e-commerce aplikacija za Prodavnice sa QR skeniranjem, sinhronizovanim korpama i in-app chatom. Realizovana za 3 meseca.",
-            "testimonial": {
-              "quote": "Zabeležili smo 40 % rast korisničke angažovanosti zahvaljujući aplikaciji. Topla preporuka!",
-              "author": "Laura H.",
-              "location": "Austrija"
-            }
+          "shopEase": {
+            "title": "ShopEase",
+            "description": "Cross‑platform mobilna e‑commerce aplikacija za trgovca — poboljšano mobilno iskustvo kupovine, povećana prodaja i angažovanje korisnika.",
+            "link": "https://www.abhyudayasw.com/services/mobile-app-development/customer-success"
           },
-          "cleanbee": {
-            "title": "CleanBee",
-            "description": "Mobilna aplikacija za zakazivanje čišćenja sa praćenjem lokacije u realnom vremenu, jednostavnim terminima i sigurnim plaćanjem unutar aplikacije."
+          "farmerBazar": {
+            "title": "Farmer Bazar",
+            "description": "Marketplace aplikacija koja povezuje ruralne dobavljače sa urbanim kupcima — kupovina i prodaja useva i stoke sa višejezičkim UI‑jem i modernim mobilnim UX‑om.",
+            "link": "https://ndimensionlabs.com/casestudies/farmer-bazar"
+          },
+          "lrnrx": {
+            "title": "lrnrx Edukativna Platforma",
+            "description": "Mobilna aplikacija za učenje / e‑learning za edukativnu uslugu — distribucija kurseva i sadržaja na iOS & Android za širok opseg korisnika.",
+            "link": "https://www.alkye.com/case-study"
+          },
+          "camelliaApp": {
+            "title": "Camellia Aplikacija za Rezervaciju Kafea",
+            "description": "Aplikacija za rezervaciju stolova i poručivanje u kafićima — sa integrisanim mobilnim poručivanjem, rezervacijama i glatkim korisničkim tokom.",
+            "link": "https://www.alkye.com/case-study"
           }
         }
       },
@@ -1402,18 +1386,32 @@
         }
       },
       "projects": {
-        "title": "Naši najnoviji e‑commerce projekti",
-        "description": "Pogledaj neke od naših nedavnih e‑commerce projekata",
+        "title": "Naši poslednji E‑commerce projekti",
+        "subtitle": "Pregled stvarnih, aktivnih online prodavnica — korisne reference za dizajn, raspored i korisničko iskustvo.",
         "items": {
-          "greenfit": {
-            "title": "GreenFit Store",
-            "type": "E‑commerce platforma",
-            "description": "Održiv prodavnica opreme za fitnes sa glatkim iskustvom kupovine i fokusom na ekologiju"
+          "tentree": {
+            "title": "Tentree",
+            "type": "E‑commerce Platforma",
+            "description": "Održiva brend odeće sa čistim layout-om, jednostavnom navigacijom i jakim ekološkim brendiranjem.",
+            "link": "https://www.tentree.com"
           },
-          "artisan": {
-            "title": "Artisan Goods",
-            "type": "Onlajn marketplace",
-            "description": "Kuratirani marketplace ručno rađenih proizvoda uz multi‑vendor podršku"
+          "allbirds": {
+            "title": "Allbirds",
+            "type": "E‑commerce Platforma",
+            "description": "Prodavnica obuće sa ekološkom svesti, minimalističkim dizajnom, glatkim iskustvom kupovine i jasnom prezentacijom proizvoda.",
+            "link": "https://www.allbirds.com"
+          },
+          "flyingTiger": {
+            "title": "Flying Tiger Copenhagen",
+            "type": "E‑commerce Platforma",
+            "description": "Lifestyle i prodavnica kućnih potrepština sa angažovanom UX, jasnim kategorijama i jednostavnim procesom plaćanja.",
+            "link": "https://www.flyingtiger.com"
+          },
+          "blume": {
+            "title": "Blume",
+            "type": "E‑commerce Platforma",
+            "description": "Prodavnica beauty i lične nege fokusirana na prirodne proizvode, sa čistom navigacijom i živopisnom prezentacijom proizvoda.",
+            "link": "https://www.blume.com"
           }
         }
       },
@@ -1558,20 +1556,28 @@
         }
       },
       "projects": {
-        "title": "Izdvojeni Projekti",
-        "subtitle": "Pogledaj naše primere za rast pomoću SEO i uspeh kroz Marketing",
+        "title": "Istaknuti SEO & Marketing Projekti",
+        "subtitle": "Stvarne studije slučaja koje pokazuju merljiv rast za male firme i nišne sajtove zahvaljujući SEO‑u i marketingu.",
         "items": {
-          "sustainable": {
-            "title": "Brend održive mode",
-            "description": "Organski saobraćaj povećan za 300%"
+          "edelweissBakery": {
+            "title": "Edelweiss Bakery – Lokalni SEO & rast saobraćaja",
+            "description": "Pekara čiji je mobilni organski saobraćaj porastao ~460% nakon tehničke SEO optimizacije, strategije sadržaja i poboljšanja sajta.",
+            "link": "https://www.semrush.com/blog/seo-case-study-bakery/"
           },
-          "dental": {
-            "title": "Lokalni SEO za zubarsku ordinaciju",
-            "description": "#1 na Google-u za 3 meseca"
+          "marganicsTextiles": {
+            "title": "Marganics – SEO optimizacija za tekstilnu firmu",
+            "description": "Tekstilna firma koja je, nakon kompletne SEO optimizacije i restrukturiranja sadržaja, udvostručila organski saobraćaj i poboljšala rangiranje ključnih reči.",
+            "link": "https://marganics.com/seo-blog/small-business-seo-case-study/"
           },
-          "coaching": {
-            "title": "Generisanje leadova za koučing biznis",
-            "description": "Uspešna implementacija email levka"
+          "dapperMarketingClient": {
+            "title": "B2B klijent preko Dapper Marketing – 100% organski rast",
+            "description": "Mali B2B‑klijent koji je u roku od 2 meseca, zahvaljujući SEO‑u i optimizaciji sadržaja, ostvario 100% rast u organskom saobraćaju i dobio brojne kvalitetne lead‑ove.",
+            "link": "https://surferseo.com/blog/small-business-agency-seo-case-study/"
+          },
+          "serviceBusinessPHM": {
+            "title": "SEO za servisni biznis – dugoročni rast (Purple Horse Marketing)",
+            "description": "Klijent iz sektora usluga čija je SEO‑kampanja dovela do porasta sa 386 na 5.300 mesečnih organskih poseta i značajnog poboljšanja rangiranja.",
+            "link": "https://www.purplehorsemarketing.co.uk/post/seo-case-study-consultancy-client"
           }
         }
       },
@@ -1782,23 +1788,38 @@
         "cta": "Počni sada"
       },
       "projects": {
-        "title": "Nedavni web razvoj projekti BW Digit-a",
-        "subtitle": "Izradili smo brze, funkcionalne i skalabilne sajtove za klijente iz različitih industrija. Evo nekoliko sajtova koje smo nedavno napravili:",
+        "title": "Primeri realnih web‑sajtova i portfolija za inspiraciju",
+        "subtitle": "Evo nekoliko live portfolija i agencijskih sajtova za ideje i referencu:",
         "items": {
-          "swiftshop": {
-            "title": "SwiftShop – E-commerce platforma",
-            "description": "Online prodavnica visokih performansi napravljena uz Next.js i Stripe. Uključuje ažuriranje zaliha u realnom vremenu, siguran checkout i ugrađenu analitiku za praćenje ponašanja korisnika.",
-            "imageAlt": "Ručno kodiran sajt za tvoj biznis"
+          "robby_leonardi_portfolio": {
+            "title": "Robby Leonardi – Interaktivni / Ilustratorski Portfolio",
+            "description": "Kreativni portfolio koji kombinuje ilustraciju, animaciju i veb — predstavlja ilustratorske, web‑dizajn i interaktivne veštine u atraktivnom i zabavnom rasporedu.",
+            "link": "https://rleonardi.com/",
+            "imageAlt": "Robby Leonardi portfolio sajt"
           },
-          "artisan": {
-            "title": "Marketplace za lokalne zanatlije, sa dashboardima za prodavce i UX prilagođenim kupovini.",
-            "description": "Prilagođeni marketplace razvijen pomoću React-a i Node.js-a. Funkcionalnosti uključuju prodajne dashboarde, sigurna plaćanja i prijatno iskustvo kupovine za korisnike.",
-            "imageAlt": "Responzivni web razvoj za sve uređaje"
+          "bruno_simon_portfolio": {
+            "title": "Bruno Simon – Kreativni / 3D Web Developer Portfolio",
+            "description": "Impresivan portfolio sa 3D WebGL‑om, koji prikazuje kreativne web i 3D razvojne veštine — odličan primer upečatljivog web dizajna.",
+            "link": "https://bruno-simon.com/",
+            "imageAlt": "Bruno Simon portfolio sajt"
           },
-          "greenfit": {
-            "title": "GreenFit – e-shop za fitnes opremu sa 3D prikazima, pametnim preporukama i mobile-first dizajnom.",
-            "description": "Moderan online shop za fitness opremu sa 3D prikazima proizvoda, personalizovanim preporukama i mobile-first dizajnom za glatko pretraživanje.",
-            "imageAlt": "Brzo učitavanje i prilagođen izgled sajta"
+          "wokine_agency_site": {
+            "title": "Wokine – Agencija za Digitalni Dizajn i Web Portfolio",
+            "description": "Agencijski sajt sa modernim, minimalističkim i efektivnim rasporedom — pogodan za freelancere ili male agencije.",
+            "link": "https://wokine.com/",
+            "imageAlt": "Wokine agencijski sajt"
+          },
+          "lounge_lizard_studio": {
+            "title": "Lounge Lizard – Kreativno Web‑Dizajn Studio Portfolio",
+            "description": "Profesionalna veb stranica studija sa uslugama brendiranja, dizajna i web‑a — dobar primer portfolija sa studijama slučaja i jasnom prezentacijom.",
+            "link": "https://loungelizard.com/",
+            "imageAlt": "Lounge Lizard studijski sajt"
+          },
+          "toyfight_studio_portfolio": {
+            "title": "ToyFight – Kreativni Studio Portfolio",
+            "description": "Studio sajt sa jakim dizajnerskim pristupom — minimalistički, čist i vizuelno privlačan, idealan za prezentovanje design‑orijentisanih web projekata.",
+            "link": "https://toyfight.co/",
+            "imageAlt": "ToyFight studio sajt"
           }
         }
       },

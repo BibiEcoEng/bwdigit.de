@@ -2,16 +2,14 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import AiAutomationTestimonialsSection from '../components/AiAutomationTestimonialsSection';
+import ProjectsCarousel from '../components/ProjectsCarousel';
 import RelatedServices from '../components/RelatedServices';
 import {
   AiAutomationHeader,
   AiAutomationIntro,
   WebDesignWhyChooseUsImg,
-  MichaelS,
-  LisaF,
-  DavidR,
-  ChristinaH,
-  RobertM,
+  MenAvatar,
+  WomenAvatar,
   AutomationClientOnboarding,
   AiToolkitFreelancers,
   ContentAutomation,
@@ -43,22 +41,63 @@ import {
   SiCanva,
   SiSlack,
 } from 'react-icons/si';
+import UiUxTestimonialsSection from '../components/UiUxTestimonialsSection';
 
 const AiAutomationPage = ({ openSidebar }) => {
   const navigate = useNavigate();
   const { t } = useTranslation();
 
   const testimonials = {
-    title: 'services.ai.testimonials.title',
-    subtitle: 'services.ai.testimonials.subtitle',
+    title: 'services.uiux.testimonials.title',
     items: [
-      { id: 'michael', image: MichaelS },
-      { id: 'lisa', image: LisaF },
-      { id: 'david', image: DavidR },
-      { id: 'christina', image: ChristinaH },
-      { id: 'robert', image: RobertM },
+      { id: 'elena', image: WomenAvatar },
+      { id: 'ricardo', image: MenAvatar },
+      { id: 'sophia', image: WomenAvatar },
+      { id: 'martin', image: MenAvatar },
+      { id: 'isabella', image: WomenAvatar },
     ],
   };
+
+  const projectsData = [
+    {
+      key: 'zapierAiMailchimp',
+      image: AutomationClientOnboarding,
+      title: t('services.ai.projects.items.zapierAiMailchimp.title'),
+      description: t(
+        'services.ai.projects.items.zapierAiMailchimp.description'
+      ),
+      imageAlt: t('services.ai.projects.items.zapierAiMailchimp.title'),
+      link: t('services.ai.projects.items.zapierAiMailchimp.link'),
+    },
+    {
+      key: 'makeMailchimp',
+      image: AiToolkitFreelancers,
+      title: t('services.ai.projects.items.makeMailchimp.title'),
+      description: t('services.ai.projects.items.makeMailchimp.description'),
+      imageAlt: t('services.ai.projects.items.makeMailchimp.title'),
+      link: t('services.ai.projects.items.makeMailchimp.link'),
+    },
+    {
+      key: 'mailchimpAutomation',
+      image: ContentAutomation,
+      title: t('services.ai.projects.items.mailchimpAutomation.title'),
+      description: t(
+        'services.ai.projects.items.mailchimpAutomation.description'
+      ),
+      imageAlt: t('services.ai.projects.items.mailchimpAutomation.title'),
+      link: t('services.ai.projects.items.mailchimpAutomation.link'),
+    },
+    {
+      key: 'zapierIntegration',
+      image: AutomationClientOnboarding, // Using same image as placeholder
+      title: t('services.ai.projects.items.zapierIntegration.title'),
+      description: t(
+        'services.ai.projects.items.zapierIntegration.description'
+      ),
+      imageAlt: t('services.ai.projects.items.zapierIntegration.title'),
+      link: t('services.ai.projects.items.zapierIntegration.link'),
+    },
+  ];
 
   const features = [
     {
@@ -538,7 +577,9 @@ const AiAutomationPage = ({ openSidebar }) => {
       </div>
 
       {/* Testimonials Section */}
-      <AiAutomationTestimonialsSection testimonials={testimonials} />
+      {/* <AiAutomationTestimonialsSection testimonials={testimonials} /> */}
+
+      <UiUxTestimonialsSection testimonials={testimonials} />
 
       {/* Projects Section */}
       <div className='container mx-auto px-4 py-16 max-w-7xl'>
@@ -550,60 +591,7 @@ const AiAutomationPage = ({ openSidebar }) => {
             {t('services.ai.projects.subtitle')}
           </p>
         </div>
-        <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
-          {[
-            {
-              title: 'services.ai.projects.items.onboarding.title',
-              description: 'services.ai.projects.items.onboarding.description',
-              image: AutomationClientOnboarding,
-            },
-            {
-              title: 'services.ai.projects.items.toolkit.title',
-              description: 'services.ai.projects.items.toolkit.description',
-              image: AiToolkitFreelancers,
-            },
-            {
-              title: 'services.ai.projects.items.contentflow.title',
-              description: 'services.ai.projects.items.contentflow.description',
-              image: ContentAutomation,
-            },
-          ].map((project, index) => (
-            <div
-              key={index}
-              className='group relative overflow-hidden rounded-lg'
-            >
-              <div className='aspect-[4/3] w-full'>
-                <img
-                  src={project.image}
-                  alt={t(project.title)}
-                  className='w-full h-full object-cover'
-                />
-              </div>
-              {/* Mobile/Tablet view - Always visible on small/medium screens */}
-              <div className='block lg:hidden bg-white p-4 border border-gray-100'>
-                <h3 className='text-lg font-semibold text-gray-900 mb-2'>
-                  {t(project.title)}
-                </h3>
-                <p className='text-gray-600 text-sm'>
-                  {t(project.description)}
-                </p>
-              </div>
-              {/* Desktop view - Hover effect */}
-              <div
-                className='hidden lg:block absolute inset-0 bg-gradient-to-t from-[#09043C] via-[#09043C]/50 to-transparent 
-                  opacity-0 group-hover:opacity-100 transition-all duration-500 
-                  transform translate-y-full group-hover:translate-y-0'
-              >
-                <div className='absolute bottom-0 left-0 right-0 p-6'>
-                  <h3 className='text-xl font-semibold text-white mb-2'>
-                    {t(project.title)}
-                  </h3>
-                  <p className='text-gray-200'>{t(project.description)}</p>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
+        <ProjectsCarousel projects={projectsData} />
       </div>
 
       {/* <div className='container mx-auto px-4 py-16 max-w-7xl'>

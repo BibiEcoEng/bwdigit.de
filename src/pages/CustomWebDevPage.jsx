@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import CustomWebDevTestimonialsSection from '../components/CustomWebDevTestimonialsSection';
+import ProjectsCarousel from '../components/ProjectsCarousel';
 import SideContact from '../components/sidebarContact/SidebarContact';
 
 // Import assets
@@ -11,6 +12,8 @@ import {
   SwiftShop,
   ArtisanGoods,
   GreenFitStore,
+  MenAvatar,
+  WomenAvatar,
 } from '../assets';
 
 // Import icons
@@ -26,6 +29,7 @@ import {
   FaExclamationCircle,
   FaCheckCircle,
 } from 'react-icons/fa';
+import UiUxTestimonialsSection from '../components/UiUxTestimonialsSection';
 
 const AUDIENCE_ICONS = [
   FaRocket,
@@ -47,6 +51,94 @@ const CustomWebDevPage = () => {
   const handleCloseContact = () => {
     setIsContactOpen(false);
   };
+
+  const testimonials = {
+    title: 'services.uiux.testimonials.title',
+    items: [
+      { id: 'elena', image: WomenAvatar },
+      { id: 'ricardo', image: MenAvatar },
+      { id: 'sophia', image: WomenAvatar },
+      { id: 'martin', image: MenAvatar },
+      { id: 'isabella', image: WomenAvatar },
+    ],
+  };
+
+  const projectsData = [
+    {
+      key: 'robby_leonardi_portfolio',
+      image: SwiftShop,
+      title: t(
+        'services.customWebDev.projects.items.robby_leonardi_portfolio.title'
+      ),
+      description: t(
+        'services.customWebDev.projects.items.robby_leonardi_portfolio.description'
+      ),
+      imageAlt: t(
+        'services.customWebDev.projects.items.robby_leonardi_portfolio.imageAlt'
+      ),
+      link: t(
+        'services.customWebDev.projects.items.robby_leonardi_portfolio.link'
+      ),
+    },
+    {
+      key: 'bruno_simon_portfolio',
+      image: ArtisanGoods,
+      title: t(
+        'services.customWebDev.projects.items.bruno_simon_portfolio.title'
+      ),
+      description: t(
+        'services.customWebDev.projects.items.bruno_simon_portfolio.description'
+      ),
+      imageAlt: t(
+        'services.customWebDev.projects.items.bruno_simon_portfolio.imageAlt'
+      ),
+      link: t(
+        'services.customWebDev.projects.items.bruno_simon_portfolio.link'
+      ),
+    },
+    {
+      key: 'wokine_agency_site',
+      image: GreenFitStore,
+      title: t('services.customWebDev.projects.items.wokine_agency_site.title'),
+      description: t(
+        'services.customWebDev.projects.items.wokine_agency_site.description'
+      ),
+      imageAlt: t(
+        'services.customWebDev.projects.items.wokine_agency_site.imageAlt'
+      ),
+      link: t('services.customWebDev.projects.items.wokine_agency_site.link'),
+    },
+    {
+      key: 'lounge_lizard_studio',
+      image: SwiftShop, // Using same image as placeholder
+      title: t(
+        'services.customWebDev.projects.items.lounge_lizard_studio.title'
+      ),
+      description: t(
+        'services.customWebDev.projects.items.lounge_lizard_studio.description'
+      ),
+      imageAlt: t(
+        'services.customWebDev.projects.items.lounge_lizard_studio.imageAlt'
+      ),
+      link: t('services.customWebDev.projects.items.lounge_lizard_studio.link'),
+    },
+    {
+      key: 'toyfight_studio_portfolio',
+      image: ArtisanGoods, // Using same image as placeholder
+      title: t(
+        'services.customWebDev.projects.items.toyfight_studio_portfolio.title'
+      ),
+      description: t(
+        'services.customWebDev.projects.items.toyfight_studio_portfolio.description'
+      ),
+      imageAlt: t(
+        'services.customWebDev.projects.items.toyfight_studio_portfolio.imageAlt'
+      ),
+      link: t(
+        'services.customWebDev.projects.items.toyfight_studio_portfolio.link'
+      ),
+    },
+  ];
 
   return (
     <div className='min-h-screen bg-gradient-to-br from-[#54BD95]/15 via-[#F7DCA1]/15 to-[#D7ABE9]/15 relative'>
@@ -323,7 +415,8 @@ const CustomWebDevPage = () => {
         </div>
 
         {/* Testimonials Section */}
-        <CustomWebDevTestimonialsSection />
+        {/* <CustomWebDevTestimonialsSection /> */}
+        <UiUxTestimonialsSection testimonials={testimonials} />
 
         {/* Projects Section */}
         <div className='mb-20'>
@@ -351,56 +444,7 @@ const CustomWebDevPage = () => {
               {t('services.customWebDev.projects.subtitle')}
             </p>
           </div>
-          <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
-            {[
-              { key: 'swiftshop', image: SwiftShop },
-              { key: 'artisan', image: ArtisanGoods },
-              { key: 'greenfit', image: GreenFitStore },
-            ].map(({ key, image }) => (
-              <div
-                key={key}
-                className='group relative overflow-hidden rounded-lg'
-              >
-                <div className='aspect-[4/3] w-full'>
-                  <img
-                    src={image}
-                    alt={t(
-                      `services.customWebDev.projects.items.${key}.imageAlt`
-                    )}
-                    className='w-full h-full object-cover'
-                  />
-                </div>
-                {/* Mobile/Tablet view - Always visible on small/medium screens */}
-                <div className='block lg:hidden bg-white p-4 border border-gray-100'>
-                  <h3 className='text-lg font-semibold text-gray-900 mb-2'>
-                    {t(`services.customWebDev.projects.items.${key}.title`)}
-                  </h3>
-                  <p className='text-gray-600 text-sm'>
-                    {t(
-                      `services.customWebDev.projects.items.${key}.description`
-                    )}
-                  </p>
-                </div>
-                {/* Desktop view - Hover effect */}
-                <div
-                  className='hidden lg:block absolute inset-0 bg-gradient-to-t from-[#09043C] via-[#09043C]/50 to-transparent 
-                    opacity-0 group-hover:opacity-100 transition-all duration-500 
-                    transform translate-y-full group-hover:translate-y-0'
-                >
-                  <div className='absolute bottom-0 left-0 right-0 p-6'>
-                    <h3 className='text-xl font-semibold text-white mb-2'>
-                      {t(`services.customWebDev.projects.items.${key}.title`)}
-                    </h3>
-                    <p className='text-gray-200'>
-                      {t(
-                        `services.customWebDev.projects.items.${key}.description`
-                      )}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+          <ProjectsCarousel projects={projectsData} />
         </div>
 
         {/* Modern Special Offer Section */}

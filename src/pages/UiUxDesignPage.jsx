@@ -2,15 +2,22 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import UiUxTestimonialsSection from '../components/UiUxTestimonialsSection';
+import ProjectsCarousel from '../components/ProjectsCarousel';
 import { UiDesignHeader, WebDesignWhyChooseUsImg } from '../assets';
 import SwiftShop from '../assets/images/SwiftShop.png';
 import ArtisanGoods from '../assets/images/Artisan Goods.png';
 import GreenFitStore from '../assets/images/GreenFit Store.png';
-import { AnaR, ThomasB, JuliaW, MayaD, LauraH } from '../assets';
+import {
+  MenAvatar,
+  WomenAvatar,
+  ArozJewelry,
+  Klur,
+  littlesCoffee,
+  velascaShoes,
+} from '../assets';
 import RelatedServices from '../components/RelatedServices';
 import SideContact from '../components/sidebarContact/SidebarContact';
 import applyAsteriskBold from '../utils/formatText';
-
 // Import icons
 import {
   FaArrowRight,
@@ -44,13 +51,48 @@ const UiUxDesignPage = () => {
   const testimonials = {
     title: 'services.uiux.testimonials.title',
     items: [
-      { id: 'ana', image: AnaR },
-      { id: 'thomas', image: ThomasB },
-      { id: 'julia', image: JuliaW },
-      { id: 'maya', image: MayaD },
-      { id: 'laura', image: LauraH },
+      { id: 'elena', image: WomenAvatar },
+      { id: 'ricardo', image: MenAvatar },
+      { id: 'sophia', image: WomenAvatar },
+      { id: 'martin', image: MenAvatar },
+      { id: 'isabella', image: WomenAvatar },
     ],
   };
+
+  const projectsData = [
+    {
+      key: 'arozJewelry',
+      image: ArozJewelry,
+      title: t('services.uiux.projects.items.arozJewelry.title'),
+      description: t('services.uiux.projects.items.arozJewelry.description'),
+      imageAlt: t('services.uiux.projects.items.arozJewelry.title'),
+      link: t('services.uiux.projects.items.arozJewelry.link'),
+    },
+    {
+      key: 'klurBeauty',
+      image: Klur,
+      title: t('services.uiux.projects.items.klurBeauty.title'),
+      description: t('services.uiux.projects.items.klurBeauty.description'),
+      imageAlt: t('services.uiux.projects.items.klurBeauty.title'),
+      link: t('services.uiux.projects.items.klurBeauty.link'),
+    },
+    {
+      key: 'littlesCoffee',
+      image: littlesCoffee,
+      title: t('services.uiux.projects.items.littlesCoffee.title'),
+      description: t('services.uiux.projects.items.littlesCoffee.description'),
+      imageAlt: t('services.uiux.projects.items.littlesCoffee.title'),
+      link: t('services.uiux.projects.items.littlesCoffee.link'),
+    },
+    {
+      key: 'velascaShoes',
+      image: velascaShoes,
+      title: t('services.uiux.projects.items.velascaShoes.title'),
+      description: t('services.uiux.projects.items.velascaShoes.description'),
+      imageAlt: t('services.uiux.projects.items.velascaShoes.title'),
+      link: t('services.uiux.projects.items.velascaShoes.link'),
+    },
+  ];
 
   const deliveryIcons = {
     [t('services.uiux.delivery.items.personas.title')]: FaUsers,
@@ -117,7 +159,10 @@ const UiUxDesignPage = () => {
         <div className='container mx-auto px-4 max-w-7xl'>
           <div className='grid md:grid-cols-2 gap-12 items-center'>
             <div className='space-y-6 text-white'>
-              <h1 className='text-2xl md:text-3xl lg:text-4xl font-bold leading-tight bg-gradient-to-r from-[#54BD95] via-[#F7DCA1] to-[#D7ABE9] bg-clip-text text-transparent capitalize'>
+              <h1
+                className='text-2xl md:text-3xl lg:text-4xl font-bold leading-tight bg-gradient-to-r from-[#00D4AA] via-[#FFE066] to-[#C084FC] bg-clip-text text-transparent capitalize'
+                style={{ hyphens: 'manual' }}
+              >
                 {t('services.uiux.hero.title')}
               </h1>
               <p className='text-lg text-gray-300 leading-relaxed max-w-lg'>
@@ -450,10 +495,10 @@ const UiUxDesignPage = () => {
                 </div>
 
                 {/* Heading with enhanced gradient */}
-                <h2 className='text-xl sm:text-2xl md:text-4xl font-bold leading-tight mb-2 animate-text bg-gradient-to-r from-accent via-white to-primary bg-clip-text text-transparent'>
+                <h2 className='text-xl sm:text-2xl md:text-4xl font-bold leading-tight mb-2 animate-text bg-gradient-to-r from-white via-accent to-white bg-clip-text text-transparent'>
                   {t('services.uiux.specialOffer.title')}
                 </h2>
-                <h3 className='text-base sm:text-lg md:text-2xl text-accent/90 font-medium mb-4'>
+                <h3 className='text-base sm:text-lg md:text-2xl text-white font-medium mb-4'>
                   {t('services.uiux.specialOffer.subtitle')}
                 </h3>
 
@@ -487,13 +532,13 @@ const UiUxDesignPage = () => {
 
                 {/* Enhanced Bottom lines with icons and styling */}
                 <div className='mt-4 md:mt-0 bg-white/5 rounded-xl p-3 border border-white/10 space-y-3'>
-                  <p className='text-gray-300 text-sm flex items-center gap-2 group'>
+                  <p className='text-white text-sm flex items-center gap-2 group'>
                     <span className='w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center flex-shrink-0 group-hover:bg-accent/30 transition-colors duration-300'>
                       <FaRocket className='text-accent text-xs' />
                     </span>
                     {t('services.uiux.specialOffer.cta.bottomLine1')}
                   </p>
-                  <p className='text-gray-300 text-sm flex items-center gap-2 group'>
+                  <p className='text-white text-sm flex items-center gap-2 group'>
                     <span className='w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center flex-shrink-0 group-hover:bg-accent/30 transition-colors duration-300'>
                       <FaLightbulb className='text-accent text-xs' />
                     </span>
@@ -509,7 +554,7 @@ const UiUxDesignPage = () => {
                   <div className='absolute top-0 right-0 w-4 h-4 bg-accent transform rotate-45 translate-x-2 -translate-y-2 group-hover:bg-accent/80 transition-colors duration-300'></div>
                 </div>
 
-                <p className='text-gray-300 text-sm sm:text-base mb-6 border-b border-white/10 pb-4'>
+                <p className='text-white text-sm sm:text-base mb-6 border-b border-white/10 pb-4'>
                   {t('services.uiux.specialOffer.description')}
                 </p>
 
@@ -592,67 +637,7 @@ const UiUxDesignPage = () => {
               {t('services.uiux.projects.subtitle')}
             </p>
           </div>
-          <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
-            {[
-              {
-                image: SwiftShop,
-                title: t('services.uiux.projects.items.swiftshop.title'),
-                description: t(
-                  'services.uiux.projects.items.swiftshop.description'
-                ),
-                imageAlt: t('services.uiux.projects.items.swiftshop.imageAlt'),
-              },
-              {
-                image: ArtisanGoods,
-                title: t('services.uiux.projects.items.artisan.title'),
-                description: t(
-                  'services.uiux.projects.items.artisan.description'
-                ),
-                imageAlt: t('services.uiux.projects.items.artisan.imageAlt'),
-              },
-              {
-                image: GreenFitStore,
-                title: t('services.uiux.projects.items.greenfit.title'),
-                description: t(
-                  'services.uiux.projects.items.greenfit.description'
-                ),
-                imageAlt: t('services.uiux.projects.items.greenfit.imageAlt'),
-              },
-            ].map((project, index) => (
-              <div
-                key={index}
-                className='group relative overflow-hidden rounded-lg'
-              >
-                <div className='aspect-[4/3] w-full'>
-                  <img
-                    src={project.image}
-                    alt={project.imageAlt}
-                    className='w-full h-full object-cover'
-                  />
-                </div>
-                {/* Mobile/Tablet view - Always visible on small/medium screens */}
-                <div className='block lg:hidden bg-white p-4 border border-gray-100'>
-                  <h3 className='text-lg font-semibold text-gray-900 mb-2 capitalize'>
-                    {project.title}
-                  </h3>
-                  <p className='text-gray-600 text-sm'>{project.description}</p>
-                </div>
-                {/* Desktop view - Hover effect */}
-                <div
-                  className='hidden lg:block absolute inset-0 bg-gradient-to-t from-[#09043C] via-[#09043C]/50 to-transparent 
-                    opacity-0 group-hover:opacity-100 transition-all duration-500 
-                    transform translate-y-full group-hover:translate-y-0'
-                >
-                  <div className='absolute bottom-0 left-0 right-0 p-6'>
-                    <h3 className='text-xl font-semibold text-white mb-2 capitalize'>
-                      {project.title}
-                    </h3>
-                    <p className='text-gray-200'>{project.description}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+          <ProjectsCarousel projects={projectsData} />
         </div>
 
         {/* Related Services Section */}

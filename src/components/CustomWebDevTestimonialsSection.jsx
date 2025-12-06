@@ -1,11 +1,6 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
-
-// Import testimonial images directly
-import AnaR from '../assets/images/Ana-R.png';
-import MarcusK from '../assets/images/Marcus K.png';
-import SarahM from '../assets/images/Sarah M.png';
-import MichaelS from '../assets/images/Michael S.png';
+import { MenAvatar, WomenAvatar } from '../assets';
 
 const CustomWebDevTestimonialsSection = () => {
   const { t } = useTranslation();
@@ -13,12 +8,12 @@ const CustomWebDevTestimonialsSection = () => {
   const testimonialsContainerRef = useRef(null);
   const autoScrollIntervalRef = useRef(null);
 
-  // Map of image names to imported images
+  // Map of image names to generic avatars
   const imageMap = {
-    'Ana-R': AnaR,
-    'Marcus K': MarcusK,
-    'Sarah M': SarahM,
-    'Michael S': MichaelS,
+    'Ana-R': WomenAvatar,
+    'Marcus K': MenAvatar,
+    'Sarah M': WomenAvatar,
+    'Michael S': MenAvatar,
   };
 
   const testimonials = {

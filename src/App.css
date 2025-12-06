@@ -44,6 +44,15 @@
     word-break: break-word;
   }
 
+  /* Better hyphenation for Serbian language */
+  html[lang='sr'] h1,
+  html[lang='sr'] h2,
+  html[lang='sr'] h3 {
+    hyphenate-limit-chars: 6 3 3;
+    hyphenate-limit-lines: 2;
+    hyphenate-limit-zone: 8%;
+  }
+
   button {
     @apply font-semibold rounded-lg transition-all duration-300 cursor-pointer;
   }

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import MobileAppTestimonialsSection from '../components/MobileAppTestimonialsSection';
+import ProjectsCarousel from '../components/ProjectsCarousel';
 import SideContact from '../components/sidebarContact/SidebarContact';
 import SpecialOfferSection from '../components/SpecialOfferSection';
 import {
@@ -9,6 +10,8 @@ import {
   MobileAppIntro,
   SwiftShop,
   CleanBee,
+  MenAvatar,
+  WomenAvatar,
 } from '../assets';
 
 // Import icons
@@ -33,6 +36,7 @@ import {
   SiNodedotjs,
   SiLaravel,
 } from 'react-icons/si';
+import UiUxTestimonialsSection from '../components/UiUxTestimonialsSection';
 
 const MobileAppDevelopmentPage = () => {
   const navigate = useNavigate();
@@ -77,6 +81,52 @@ const MobileAppDevelopmentPage = () => {
     <FaMobile className='w-8 h-8' key='mobile' />,
     <FaUsers className='w-8 h-8' key='users' />,
     <FaChartLine className='w-8 h-8' key='chart' />,
+  ];
+
+  const testimonials = {
+    title: 'services.uiux.testimonials.title',
+    items: [
+      { id: 'elena', image: WomenAvatar },
+      { id: 'ricardo', image: MenAvatar },
+      { id: 'sophia', image: WomenAvatar },
+      { id: 'martin', image: MenAvatar },
+      { id: 'isabella', image: WomenAvatar },
+    ],
+  };
+
+  const projectsData = [
+    {
+      key: 'shopEase',
+      image: SwiftShop,
+      title: t('services.mobile.projects.items.shopEase.title'),
+      description: t('services.mobile.projects.items.shopEase.description'),
+      imageAlt: t('services.mobile.projects.items.shopEase.title'),
+      link: t('services.mobile.projects.items.shopEase.link'),
+    },
+    {
+      key: 'farmerBazar',
+      image: CleanBee,
+      title: t('services.mobile.projects.items.farmerBazar.title'),
+      description: t('services.mobile.projects.items.farmerBazar.description'),
+      imageAlt: t('services.mobile.projects.items.farmerBazar.title'),
+      link: t('services.mobile.projects.items.farmerBazar.link'),
+    },
+    {
+      key: 'lrnrx',
+      image: SwiftShop, // Using same image as placeholder
+      title: t('services.mobile.projects.items.lrnrx.title'),
+      description: t('services.mobile.projects.items.lrnrx.description'),
+      imageAlt: t('services.mobile.projects.items.lrnrx.title'),
+      link: t('services.mobile.projects.items.lrnrx.link'),
+    },
+    {
+      key: 'camelliaApp',
+      image: CleanBee, // Using same image as placeholder
+      title: t('services.mobile.projects.items.camelliaApp.title'),
+      description: t('services.mobile.projects.items.camelliaApp.description'),
+      imageAlt: t('services.mobile.projects.items.camelliaApp.title'),
+      link: t('services.mobile.projects.items.camelliaApp.link'),
+    },
   ];
 
   return (
@@ -465,50 +515,13 @@ const MobileAppDevelopmentPage = () => {
               {t('services.mobile.projects.title')}
             </h2>
           </div>
-          <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
-            {[
-              { key: 'swiftshop', image: SwiftShop },
-              { key: 'cleanbee', image: CleanBee },
-            ].map(({ key, image }) => (
-              <div
-                key={key}
-                className='group relative overflow-hidden rounded-lg'
-              >
-                <div className='aspect-[4/3] w-full'>
-                  <img
-                    src={image}
-                    alt={t(`services.mobile.projects.items.${key}.title`)}
-                    className='w-full h-full object-cover'
-                  />
-                </div>
-                {/* Mobile/Tablet view - Always visible on small/medium screens */}
-                <div className='block lg:hidden bg-white p-4 border border-gray-100'>
-                  <h3 className='text-lg font-semibold text-gray-900 mb-2'>
-                    {t(`services.mobile.projects.items.${key}.title`)}
-                  </h3>
-                  <p className='text-gray-600 text-sm'>
-                    {t(`services.mobile.projects.items.${key}.description`)}
-                  </p>
-                </div>
-                {/* Desktop view - Hover effect */}
-                <div className='hidden lg:block absolute inset-0 bg-gradient-to-t from-[#09043C]/90 via-[#09043C]/70 to-transparent translate-y-full group-hover:translate-y-0 transition-transform duration-500'>
-                  <div className='absolute bottom-0 left-0 right-0 p-6 text-white'>
-                    <h3 className='text-xl font-semibold mb-2'>
-                      {t(`services.mobile.projects.items.${key}.title`)}
-                    </h3>
-                    <p className='text-gray-200'>
-                      {t(`services.mobile.projects.items.${key}.description`)}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+          <ProjectsCarousel projects={projectsData} />
         </div>
 
         {/* Testimonials Section */}
         <div className='mt-8 sm:mt-12 md:mt-16 lg:mt-20 mb-8 sm:mb-12 md:mb-16 lg:mb-20 px-2 sm:px-0'>
-          <MobileAppTestimonialsSection />
+          {/* <MobileAppTestimonialsSection /> */}
+          <UiUxTestimonialsSection testimonials={testimonials} />
         </div>
 
         {/* Internal Links Section */}

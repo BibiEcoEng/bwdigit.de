@@ -137,56 +137,57 @@
   "visionText": "We build long-term success stories together with people who trust us. Clear ideas, a professional team, honest work and measurable impact - that's what we stand for.",
   "testimonialsTitle": "What Our Clients Say",
   "testimonialsSubtitle": "Our clients report over 50% more visibility & revenue!",
-  "testimonial1Client": "Paul",
-  "testimonial1Text": "BW-Digit didn’t just redesign our website — they gave our brand a fresh and modern identity. Our customers truly love the new look.",
+  "testimonial1Client": "Daniel Carter",
+  "testimonial1Text": "BW-Digit didn’t just redesign our website — they revitalized our entire brand. Our clients immediately noticed and appreciated the modern upgrade.",
   "testimonial1Service": "Web Design",
 
-  "testimonial2Client": "Maximilian",
-  "testimonial2Text": "Working with BW-Digit has noticeably improved our marketing performance. Their strategies brought real results in a short time.",
+  "testimonial2Client": "Markus Weber",
+  "testimonial2Text": "Partnering with BW-Digit significantly strengthened our marketing results. We began seeing measurable improvements much sooner than expected.",
   "testimonial2Service": "Marketing",
 
-  "testimonial3Client": "Marie",
-  "testimonial3Text": "We struggled with visibility for years, but BW-Digit significantly improved our rankings. Our organic traffic is higher than ever.",
+  "testimonial3Client": "Isabella Hughes",
+  "testimonial3Text": "Our online visibility had been stagnant for years, but BW-Digit helped us achieve notable improvements in rankings and organic traffic.",
   "testimonial3Service": "SEO",
 
-  "testimonial4Client": "Sophi",
-  "testimonial4Text": "We needed a very specific digital solution, and BW-Digit delivered exactly what we envisioned. Truly exceptional work.",
+  "testimonial4Client": "Sophia Klein",
+  "testimonial4Text": "We required a fully customized digital solution, and BW-Digit delivered precisely what we envisioned. Their attention to detail was exceptional.",
   "testimonial4Service": "Custom Solutions",
 
-  "testimonial5Client": "Jonas",
-  "testimonial5Text": "Our new platform works flawlessly. BW-Digit’s technical expertise and attention to detail exceeded our expectations.",
+  "testimonial5Client": "Jonathan Reed",
+  "testimonial5Text": "The new platform BW-Digit developed runs flawlessly. Their technical expertise and commitment to quality are evident throughout the system.",
   "testimonial5Service": "Technical Perfection",
 
-  "testimonial6Client": "Lina",
-  "testimonial6Text": "The entire process was smooth and professional. BW-Digit created a design that represents our brand perfectly.",
+  "testimonial6Client": "Elena Schneider",
+  "testimonial6Text": "The entire process was smooth and professional. BW-Digit created a design that aligns perfectly with our brand identity.",
   "testimonial6Service": "Web Design",
 
-  "testimonial7Client": "Leon",
-  "testimonial7Text": "BW-Digit’s marketing strategies brought measurable growth to our business. We finally feel confident in our online presence.",
+  "testimonial7Client": "Leonard Fischer",
+  "testimonial7Text": "BW-Digit’s marketing guidance helped us achieve steady growth. We finally feel confident about our digital presence.",
   "testimonial7Service": "Marketing",
 
-  "testimonial8Client": "Lea",
-  "testimonial8Text": "Our search engine visibility has improved dramatically. BW-Digit’s SEO team truly knows what they’re doing.",
+  "testimonial8Client": "Natalie Brooks",
+  "testimonial8Text": "Our search visibility has improved dramatically. BW-Digit’s SEO strategies clearly deliver results.",
   "testimonial8Service": "SEO",
 
-  "testimonial9Client": "Hannah",
-  "testimonial9Text": "The custom software BW-Digit built for us has streamlined our operations and saved us valuable time.",
+  "testimonial9Client": "Hannah Mitchell",
+  "testimonial9Text": "The custom software BW-Digit built has streamlined several of our internal processes and saved significant time.",
   "testimonial9Service": "Custom Solutions",
 
-  "testimonial10Client": "Finn",
-  "testimonial10Text": "BW-Digit ensures that our website runs smoothly at all times. Their technical precision is impressive.",
+  "testimonial10Client": "Frederick Adams",
+  "testimonial10Text": "BW-Digit ensures that our website remains fast, secure, and reliable. Their technical precision is truly impressive.",
   "testimonial10Service": "Technical Perfection",
 
-  "testimonial11Client": "Mia",
-  "testimonial11Text": "Our new website is beautiful, fast, and user-friendly. BW-Digit exceeded our expectations in every way.",
+  "testimonial11Client": "Victoria Collins",
+  "testimonial11Text": "Our new website is modern, intuitive, and beautifully designed. BW-Digit exceeded every expectation we had.",
   "testimonial11Service": "Web Design",
 
-  "testimonial12Client": "Lucas",
-  "testimonial12Text": "The marketing team at BW-Digit understands our audience well. Their campaigns helped us reach a much wider customer base.",
+  "testimonial12Client": "Lucas Bennett",
+  "testimonial12Text": "BW-Digit understands our audience exceptionally well. Their campaigns helped us expand our reach and grow consistently.",
   "testimonial12Service": "Marketing",
 
-  "testimonial13Client": "Emma",
-  "testimonial13Text": "BW-Digit’s SEO work has shown clear results. Our organic traffic continues to grow month after month.",
+  "testimonial13Client": "Emma Richardson",
+  "testimonial13Text": "We continue to see strong improvements in organic performance. BW-Digit’s SEO work is genuinely effective.",
+  "testimonial13Service": "SEO",
   "testimonial13Service": "SEO",
   "faqTitle": "Frequently Asked Questions (FAQ)",
   "faqSubtitle": "Find more answers here - or contact us directly for further questions!",
@@ -203,7 +204,9 @@
   "contactTitle": "Contact",
   "contactSubtitle": "Get started today — secure your free initial consultation now!",
   "email": "info@bwdigit.com",
+  "emailLabel": "E-mail",
   "phone": "+49 172 8137111",
+  "phoneLabel": "Phone",
   "footer.home": "Home",
   "footer.whatWeDeliver": "What We Deliver",
   "footer.services": "Services",
@@ -351,7 +354,7 @@
     },
     "businessHours": {
       "title": "Business Hours",
-      "info": "Mon-Fri: 9AM-6PM EST"
+      "info": "Mon-Fri: 9AM-6PM CET"
     },
     "whyChooseUs": {
       "title": "Why Choose Us?",
@@ -681,20 +684,28 @@
         }
       },
       "projects": {
-        "title": "Real UI/UX Projects, Real Results",
-        "subtitle": "From SaaS dashboards to eCommerce flows, our design work helps clients improve clarity, reduce drop-offs and grow sustainably. Every design is crafted to guide users toward action and help our clients achieve measurable growth.",
+        "title": "Real-World Small Business Websites for Design Inspiration",
+        "subtitle": "Boutique shops, small businesses and niche brands with clean UX, modern design and solid usability — useful references for web, e-commerce, mobile or service projects.",
         "items": {
-          "swiftshop": {
-            "title": "SwiftShop Mobile App",
-            "description": "E-commerce app with QR product scanning and synchronized shopping cart"
+          "klurBeauty": {
+            "title": "Klur Skincare",
+            "description": "Minimalist skincare & beauty brand website — calm styling, clean layout and user-friendly e-commerce flow.",
+            "link": "https://klur.co/"
           },
-          "artisan": {
-            "title": "Artisan Goods Marketplace",
-            "description": "Multi-vendor marketplace with custom payment solutions"
+          "arozJewelry": {
+            "title": "ArozJewelry Boutique",
+            "description": "Jewelry e-commerce store with a clean product grid, elegant imagery and smooth shopping flow.",
+            "link": "https://arozjewelry.com/"
           },
-          "greenfit": {
-            "title": "GreenFit Store",
-            "description": "WooCommerce store with automated inventory management"
+          "littlesCoffee": {
+            "title": "Little’s Coffee Roasters",
+            "description": "Small coffee roaster shop website with inviting visuals, clear menu/categories and smooth user navigation for a food-service business.",
+            "link": "https://wearelittles.com/"
+          },
+          "velascaShoes": {
+            "title": "Velasca Leather Goods",
+            "description": "Boutique leather-shoes and accessories store — refined design, proper product presentation and intuitive browsing experience.",
+            "link": "https://velasca.com/"
           }
         }
       },
@@ -724,33 +735,33 @@
         "conversion": "Conversion"
       },
       "testimonials": {
-        "title": "What Clients Say About Our UI/UX Design Work",
-        "subtitle": "Real feedback from businesses we've helped improve their websites, apps and user journeys. See what clients say who’ve doubled their conversion rates and reduced bounce by 40% after redesigning with BW Digit’s UI/UX experts:",
+        "title": "What Clients Say About Working With BW Digit",
+        "subtitle": "Real feedback from companies and professionals who trusted BW Digit with their digital transformation, from web development to mobile apps, UI/UX, e-commerce, and AI-driven solutions.",
         "items": {
-          "ana": {
-            "author": "Ana R.",
-            "position": "Product Manager",
-            "quote": "BW Digit transformed our product's user experience. The new design is not only beautiful but also significantly improved our user engagement metrics."
+          "elena": {
+            "author": "Elena Martinez",
+            "position": "Operations Manager",
+            "quote": "Working with BW Digit has been a seamless experience. Their ability to understand our goals and deliver scalable digital solutions made a real impact on our business."
           },
-          "thomas": {
-            "author": "Thomas B.",
-            "position": "CEO & Founder",
-            "quote": "Their UI/UX design expertise helped us create an intuitive and modern interface that our customers love. The results exceeded our expectations."
+          "ricardo": {
+            "author": "Ricardo Leuven",
+            "position": "Startup Founder",
+            "quote": "BW Digit supported us from concept to launch with professionalism and clarity. Whether it was development, design, or system optimization, they delivered consistently high-quality results."
           },
-          "julia": {
-            "author": "Julia W.",
-            "position": "Marketing Director",
-            "quote": "Working with BW Digit was a game-changer for our digital presence. Their design approach perfectly balanced aesthetics and functionality."
+          "sophia": {
+            "author": "Sophia Klein",
+            "position": "Head of Digital Strategy",
+            "quote": "Their team has a strong grasp of modern technology and user expectations. BW Digit helped us improve our digital performance across multiple platforms."
           },
-          "maya": {
-            "author": "Maya D.",
-            "position": "UX Lead",
-            "quote": "The team's attention to detail and user-centric approach helped us create a product that truly resonates with our target audience."
+          "martin": {
+            "author": "Martin Schneider",
+            "position": "Project Director",
+            "quote": "A highly reliable partner with excellent communication. BW Digit handled every phase of our project with precision, from planning to execution."
           },
-          "laura": {
-            "author": "Laura H.",
-            "position": "E-commerce Manager",
-            "quote": "Our conversion rates improved significantly after implementing BW Digit's UI/UX recommendations. Their expertise in e-commerce design is outstanding."
+          "isabella": {
+            "author": "Isabella Fischer",
+            "position": "E-commerce Owner",
+            "quote": "BW Digit delivered exactly what we needed: a stable, user-friendly solution that enhanced our customers’ experience and supported our business growth."
           }
         }
       },
@@ -918,20 +929,28 @@
         }
       },
       "projects": {
-        "title": "Featured Projects",
-        "subtitle": "Explore our successful AI automation implementations",
+        "title": "Featured AI & Automation Projects",
+        "subtitle": "Live tools and integrations demonstrating real‑world AI and workflow automation solutions",
         "items": {
-          "onboarding": {
-            "title": "Automation for Client Onboarding",
-            "description": "Custom Notion + Zapier setup for a coaching business"
+          "zapierAiMailchimp": {
+            "title": "AI‑powered Email Automation (Zapier + Mailchimp)",
+            "description": "Using AI by Zapier integrated with Mailchimp to automate email campaigns, contact segmentation and trigger‑based communication flows.",
+            "link": "https://zapier.com/apps/mailchimp/integrations/ai"
           },
-          "toolkit": {
-            "title": "AI Toolkit for Freelancers",
-            "description": "Bundle of templates & guides for building a scalable service business"
+          "makeMailchimp": {
+            "title": "Visual Workflow Automation (Make.com + Mailchimp)",
+            "description": "No‑code automation platform (Make.com) used to build multi‑step workflows combining email, CRM, data sync and business logic.",
+            "link": "https://www.make.com/en/integrations/mailchimp"
           },
-          "contentflow": {
-            "title": "AI Content Flow System",
-            "description": "Automated content planning and generation workflow using Notion, ChatGPT, and Airtable integration"
+          "mailchimpAutomation": {
+            "title": "Built‑in Marketing Automation (Mailchimp)",
+            "description": "Mailchimp’s native automation features for marketing — automated email flows, behavioral triggers and campaign orchestration.",
+            "link": "https://mailchimp.com/automations/"
+          },
+          "zapierIntegration": {
+            "title": "Universal No‑Code Automation (Zapier)",
+            "description": "Zapier templates for integrating AI tools, email services, CRMs and other apps — ideal for small businesses automating workflows without coding.",
+            "link": "https://zapier.com"
           }
         }
       },
@@ -1084,20 +1103,27 @@
         }
       },
       "projects": {
-        "title": "Success Stories",
+        "title": "Success Stories: Mobile App Development",
         "items": {
-          "swiftshop": {
-            "title": "SwiftShop",
-            "description": "A cross-platform mobile e-commerce app for boutique retailers. Features included QR product scanning, cart sync with desktop site, and in-app chat. Delivered in 3 months.",
-            "testimonial": {
-              "quote": "We saw a 40% increase in user engagement thanks to the app. Highly recommend BW Digit!",
-              "author": "Laura H.",
-              "location": "Austria"
-            }
+          "shopEase": {
+            "title": "ShopEase",
+            "description": "Cross‑platform mobile e‑commerce app for a retailer — improved mobile shopping experience, increased sales and user engagement.",
+            "link": "https://www.abhyudayasw.com/services/mobile-app-development/customer-success"
           },
-          "cleanbee": {
-            "title": "CleanBee",
-            "description": "A mobile app for booking home cleaning services, with features like live location tracking, easy scheduling, and secure in-app payments."
+          "farmerBazar": {
+            "title": "Farmer Bazar",
+            "description": "Marketplace app connecting rural suppliers and urban buyers — enabling crop & livestock trading with multilingual UI and modern mobile UX.",
+            "link": "https://ndimensionlabs.com/casestudies/farmer-bazar"
+          },
+          "lrnrx": {
+            "title": "lrnrx Education Platform",
+            "description": "Mobile learning / e‑learning app built for education service — delivering courses and content on iOS & Android to a wide user base.",
+            "link": "https://www.alkye.com/case-study"
+          },
+          "camelliaApp": {
+            "title": "Camellia Café Booking App",
+            "description": "App for café table booking and ordering — with integrated mobile ordering, reservations and smooth user flow across devices.",
+            "link": "https://www.alkye.com/case-study"
           }
         }
       },
@@ -1369,18 +1395,32 @@
         }
       },
       "projects": {
-        "title": "Our Recent E-commerce Projects",
-        "description": "Take a look at some of our recent e-commerce projects",
+        "title": "Our Recent E‑commerce Projects",
+        "subtitle": "Take a look at some real, live ecommerce stores — useful references for design, layout and user experience.",
         "items": {
-          "greenfit": {
-            "title": "GreenFit Store",
-            "type": "E-commerce Platform",
-            "description": "A sustainable fitness equipment store with seamless shopping experience and eco-friendly focus"
+          "tentree": {
+            "title": "Tentree",
+            "type": "E‑commerce Platform",
+            "description": "Sustainable apparel brand with a clean layout, easy navigation, and strong eco-friendly branding.",
+            "link": "https://www.tentree.com"
           },
-          "artisan": {
-            "title": "Artisan Goods",
-            "type": "Online Marketplace",
-            "description": "A curated marketplace for handcrafted artisanal products with multi-vendor support"
+          "allbirds": {
+            "title": "Allbirds",
+            "type": "E‑commerce Platform",
+            "description": "Eco-conscious footwear store with minimalistic design, smooth shopping experience, and clear product presentation.",
+            "link": "https://www.allbirds.com"
+          },
+          "flyingTiger": {
+            "title": "Flying Tiger Copenhagen",
+            "type": "E‑commerce Platform",
+            "description": "Lifestyle and home goods store with engaging UX, clear categories, and seamless checkout process.",
+            "link": "https://www.flyingtiger.com"
+          },
+          "blume": {
+            "title": "Blume",
+            "type": "E‑commerce Platform",
+            "description": "Beauty and personal care store focused on natural products, with clean navigation and vibrant product display.",
+            "link": "https://www.blume.com"
           }
         }
       },
@@ -1524,20 +1564,28 @@
         }
       },
       "projects": {
-        "title": "Featured Projects",
-        "subtitle": "See real examples of our SEO and Marketing work",
+        "title": "Featured SEO & Marketing Projects",
+        "subtitle": "Real-world SEO and marketing case studies demonstrating measurable growth for small businesses and niche sites.",
         "items": {
-          "sustainable": {
-            "title": "Sustainable Fashion Brand",
-            "description": "Organic traffic increased by 300%"
+          "edelweissBakery": {
+            "title": "Edelweiss Bakery – Local SEO & Traffic Growth",
+            "description": "Artisan bakery whose mobile organic traffic increased by ~460% after technical SEO, content strategy, and site optimization.",
+            "link": "https://www.semrush.com/blog/seo-case-study-bakery/"
           },
-          "dental": {
-            "title": "Dental Clinic Local SEO",
-            "description": "#1 in Google within 3 months"
+          "marganicsTextiles": {
+            "title": "Marganics – SEO Optimization for Textile Business",
+            "description": "Textile company that doubled organic traffic and improved keyword rankings following a full SEO overhaul and content restructuring.",
+            "link": "https://marganics.com/seo-blog/small-business-seo-case-study/"
           },
-          "coaching": {
-            "title": "Coaching Business Lead Generation",
-            "description": "Successful email funnel implementation"
+          "dapperMarketingClient": {
+            "title": "B2B Client via Dapper Marketing – 100% Organic Growth",
+            "description": "Small‑business client in a B2B niche that saw 100% organic traffic growth within 2 months and dozens of warm leads thanks to SEO and content optimization.",
+            "link": "https://surferseo.com/blog/small-business-agency-seo-case-study/"
+          },
+          "serviceBusinessPHM": {
+            "title": "Service Business SEO – Long‑Term Growth (Purple Horse Marketing)",
+            "description": "Service‑oriented client whose SEO campaign resulted in a jump from 386 to 5,300 monthly organic sessions, plus major keyword‑ranking improvements.",
+            "link": "https://www.purplehorsemarketing.co.uk/post/seo-case-study-consultancy-client"
           }
         }
       },
@@ -1745,23 +1793,38 @@
         "cta": "Start Your Project Today"
       },
       "projects": {
-        "title": "Recent Web Development Projects by BW Digit ",
-        "subtitle": "We’ve built fast, functional and scalable websites for clients across industries. Here are a few websites we’ve recently built:",
+        "title": "Real‑world Web Development & Design Websites for Inspiration",
+        "subtitle": "Here are live portfolios and agency websites to spark ideas for your own projects:",
         "items": {
-          "swiftshop": {
-            "title": "SwiftShop – E-Commerce Platform",
-            "description": "A high-performance online store built with Next.js and Stripe. Includes real-time inventory updates, secure checkout and built-in analytics to track user behavior.",
-            "imageAlt": "custom-coded business website design"
+          "robby_leonardi_portfolio": {
+            "title": "Robby Leonardi – Interactive / Illustration Portfolio",
+            "description": "A creative portfolio blending illustration, animation and web — showcasing illustration, web design and interactive skills in a playful, engaging layout.",
+            "link": "https://rleonardi.com/",
+            "imageAlt": "Robby Leonardi portfolio site"
           },
-          "artisan": {
-            "title": "Artisan Goods Marketplace",
-            "description": "A custom-built marketplace using React and Node.js. Features include seller dashboards, secure payments and a smooth shopping experience for buyers.",
-            "imageAlt": "responsive web development for all devices"
+          "bruno_simon_portfolio": {
+            "title": "Bruno Simon – Creative / 3D Web Developer Portfolio",
+            "description": "A bold, 3D‑WebGL powered portfolio showcasing creative web and 3D development skills — a great example of immersive, standout web design.",
+            "link": "https://bruno-simon.com/",
+            "imageAlt": "Bruno Simon portfolio site"
           },
-          "greenfit": {
-            "title": "GreenFit Store Fitness E-Commerce",
-            "description": "A modern online store for fitness products, featuring 3D product previews, personalized product suggestions and mobile-first design for smooth browsing.",
-            "imageAlt": "fast-loading custom website layout"
+          "wokine_agency_site": {
+            "title": "Wokine – Digital Design & Web Agency Portfolio",
+            "description": "Agency‑style website showcasing design and web development services with modern, minimal and effective layout — useful for freelancers / small agencies.",
+            "link": "https://wokine.com/",
+            "imageAlt": "Wokine agency website"
+          },
+          "lounge_lizard_studio": {
+            "title": "Lounge Lizard – Creative Web Design Studio Portfolio",
+            "description": "A professional creative studio website offering branding, design, and web services — good example of case‑study based portfolio presentation.",
+            "link": "https://loungelizard.com/",
+            "imageAlt": "Lounge Lizard studio website"
+          },
+          "toyfight_studio_portfolio": {
+            "title": "ToyFight – Creative Studio Portfolio",
+            "description": "Creative studio website with strong design aesthetic — minimal, clean, and visually appealing, perfect for presenting design‑centric web projects.",
+            "link": "https://toyfight.co/",
+            "imageAlt": "ToyFight studio website"
           }
         }
       },

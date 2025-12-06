@@ -51,7 +51,7 @@ const UiUxTestimonialsSection = ({ testimonials }) => {
   const visibleTestimonials = testimonials.items
     .map((testimonial, index) => ({
       ...testimonial,
-      id: ['ana', 'thomas', 'julia', 'maya', 'laura'][index],
+      id: ['elena', 'ricardo', 'sophia', 'martin', 'isabella'][index],
     }))
     .slice(activeIndex, activeIndex + itemsToShow);
 

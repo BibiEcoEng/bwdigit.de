@@ -1,20 +1,6 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
-import {
-  paul,
-  maximilian,
-  marie,
-  sophi,
-  jonas,
-  lina,
-  leon,
-  lea,
-  hannah,
-  finn,
-  mia,
-  lucas,
-  emma,
-} from '../assets';
+import { MenAvatar, WomenAvatar } from '../assets';
 
 const TestimonialsSection = () => {
   const { t } = useTranslation();
@@ -28,7 +14,7 @@ const TestimonialsSection = () => {
       name: t('testimonial1Client'),
       rating: 5,
       testimonial: t('testimonial1Text'),
-      image: paul,
+      image: MenAvatar,
       service: t('testimonial1Service'),
     },
     {
@@ -36,7 +22,7 @@ const TestimonialsSection = () => {
       name: t('testimonial2Client'),
       rating: 5,
       testimonial: t('testimonial2Text'),
-      image: maximilian,
+      image: MenAvatar,
       service: t('testimonial2Service'),
     },
     {
@@ -44,7 +30,7 @@ const TestimonialsSection = () => {
       name: t('testimonial3Client'),
       rating: 5,
       testimonial: t('testimonial3Text'),
-      image: marie,
+      image: WomenAvatar,
       service: t('testimonial3Service'),
     },
     {
@@ -52,7 +38,7 @@ const TestimonialsSection = () => {
       name: t('testimonial4Client'),
       rating: 5,
       testimonial: t('testimonial4Text'),
-      image: sophi,
+      image: WomenAvatar,
       service: t('testimonial4Service'),
     },
     {
@@ -60,7 +46,7 @@ const TestimonialsSection = () => {
       name: t('testimonial5Client'),
       rating: 5,
       testimonial: t('testimonial5Text'),
-      image: jonas,
+      image: MenAvatar,
       service: t('testimonial5Service'),
     },
     {
@@ -68,7 +54,7 @@ const TestimonialsSection = () => {
       name: t('testimonial6Client'),
       rating: 5,
       testimonial: t('testimonial6Text'),
-      image: lina,
+      image: WomenAvatar,
       service: t('testimonial6Service'),
     },
     {
@@ -76,7 +62,7 @@ const TestimonialsSection = () => {
       name: t('testimonial7Client'),
       rating: 5,
       testimonial: t('testimonial7Text'),
-      image: leon,
+      image: MenAvatar,
       service: t('testimonial7Service'),
     },
     {
@@ -84,7 +70,7 @@ const TestimonialsSection = () => {
       name: t('testimonial8Client'),
       rating: 5,
       testimonial: t('testimonial8Text'),
-      image: lea,
+      image: WomenAvatar,
       service: t('testimonial8Service'),
     },
     {
@@ -92,7 +78,7 @@ const TestimonialsSection = () => {
       name: t('testimonial9Client'),
       rating: 5,
       testimonial: t('testimonial9Text'),
-      image: hannah,
+      image: WomenAvatar,
       service: t('testimonial9Service'),
     },
     {
@@ -100,7 +86,7 @@ const TestimonialsSection = () => {
       name: t('testimonial10Client'),
       rating: 5,
       testimonial: t('testimonial10Text'),
-      image: finn,
+      image: MenAvatar,
       service: t('testimonial10Service'),
     },
     {
@@ -108,7 +94,7 @@ const TestimonialsSection = () => {
       name: t('testimonial11Client'),
       rating: 5,
       testimonial: t('testimonial11Text'),
-      image: mia,
+      image: WomenAvatar,
       service: t('testimonial11Service'),
     },
     {
@@ -116,7 +102,7 @@ const TestimonialsSection = () => {
       name: t('testimonial12Client'),
       rating: 5,
       testimonial: t('testimonial12Text'),
-      image: lucas,
+      image: MenAvatar,
       service: t('testimonial12Service'),
     },
     {
@@ -124,7 +110,7 @@ const TestimonialsSection = () => {
       name: t('testimonial13Client'),
       rating: 5,
       testimonial: t('testimonial13Text'),
-      image: emma,
+      image: WomenAvatar,
       service: t('testimonial13Service'),
     },
   ];

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
-import { MiraS, ThomasG, JovanaM, LauraS, MarkusH, IsabelK } from '../assets';
+import { MenAvatar, WomenAvatar } from '../assets';
 
 const MarketingSeoTestimonialsSection = () => {
   const { t } = useTranslation();
@@ -9,12 +9,12 @@ const MarketingSeoTestimonialsSection = () => {
   const autoScrollIntervalRef = useRef(null);
 
   const testimonialImages = {
-    miras: MiraS,
-    thomasg: ThomasG,
-    jovanam: JovanaM,
-    lauras: LauraS,
-    markush: MarkusH,
-    isabelk: IsabelK,
+    miras: WomenAvatar,
+    thomasg: MenAvatar,
+    jovanam: WomenAvatar,
+    lauras: WomenAvatar,
+    markush: MenAvatar,
+    isabelk: WomenAvatar,
   };
 
   const testimonialKeys = [

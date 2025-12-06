@@ -199,7 +199,7 @@ const Footer = ({ openSidebar }) => {
           <div className='lg:col-span-6'>
             <div className='grid grid-cols-1 sm:grid-cols-3 gap-8'>
               <div>
-                <h3 className='heading-small font-semibold text-white heading-spacing-small font-alt'>
+                <h3 className='text-xl font-bold text-white mb-4 font-alt'>
                   {t('footer.navigationTitle')}
                 </h3>
                 <ul className='space-y-3'>
@@ -217,7 +217,7 @@ const Footer = ({ openSidebar }) => {
               </div>
 
               <div>
-                <h3 className='heading-small font-semibold text-white heading-spacing-small'>
+                <h3 className='text-xl font-bold text-white mb-4'>
                   {t('footer.exploreTitle')}
                 </h3>
                 <ul className='space-y-3'>
@@ -235,7 +235,7 @@ const Footer = ({ openSidebar }) => {
               </div>
 
               <div>
-                <h3 className='heading-small font-semibold text-white heading-spacing-small'>
+                <h3 className='text-xl font-bold text-white mb-4'>
                   {t('footer.infoTitle')}
                 </h3>
                 <ul className='space-y-3'>
@@ -371,7 +371,7 @@ const Footer = ({ openSidebar }) => {
                 <FaLinkedin className='w-5 h-5' />
               </a>
               <a
-                href='https://www.instagram.com/bwdigit'
+                href='https://share.google/58iKU8NqPX9eBgtJy'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='text-gray-100 hover:text-accent transition-colors'
@@ -389,7 +389,7 @@ const Footer = ({ openSidebar }) => {
                 <FaFacebook className='w-5 h-5' />
               </a>
               <a
-                href='https://de.pinterest.com/@BWDigit'
+                href='https://share.google/ZJKVRbn2Jimy5VDMw'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='text-gray-100 hover:text-accent transition-colors'

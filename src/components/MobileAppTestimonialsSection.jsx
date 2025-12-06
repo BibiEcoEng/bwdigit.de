@@ -2,27 +2,19 @@ import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
 
 // Import testimonial images
-import NinaImg from '../assets/images/Nina L.png';
-import MarkoImg from '../assets/images/Marko B.png';
-import LauraHImg from '../assets/images/Laura H.png';
-import JovanaImg from '../assets/images/Jovana M.png';
-import LauraSImg from '../assets/images/Laura S.png';
-import MarkusImg from '../assets/images/Markus H.png';
-import IsabelImg from '../assets/images/Isabel K.png';
-import TimImg from '../assets/images/Tim R.png';
-import AnnaImg from '../assets/images/Anna M.png';
+import { MenAvatar, WomenAvatar } from '../assets';
 
 // Map testimonial IDs to their images
 const testimonialImages = {
-  nina: NinaImg,
-  marko: MarkoImg,
-  laura: LauraHImg,
-  jovana: JovanaImg,
-  lauras: LauraSImg,
-  markus: MarkusImg,
-  isabel: IsabelImg,
-  tim: TimImg,
-  anna: AnnaImg,
+  nina: WomenAvatar,
+  marko: MenAvatar,
+  laura: WomenAvatar,
+  jovana: WomenAvatar,
+  lauras: WomenAvatar,
+  markus: MenAvatar,
+  isabel: WomenAvatar,
+  tim: MenAvatar,
+  anna: WomenAvatar,
 };
 
 const MobileAppTestimonialsSection = () => {
