@@ -4,9 +4,6 @@ import { useTranslation } from 'react-i18next';
 import UiUxTestimonialsSection from '../components/UiUxTestimonialsSection';
 import ProjectsCarousel from '../components/ProjectsCarousel';
 import { UiDesignHeader, WebDesignWhyChooseUsImg } from '../assets';
-import SwiftShop from '../assets/images/SwiftShop.png';
-import ArtisanGoods from '../assets/images/Artisan Goods.png';
-import GreenFitStore from '../assets/images/GreenFit Store.png';
 import {
   MenAvatar,
   WomenAvatar,

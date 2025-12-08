@@ -8,8 +8,10 @@ import SpecialOfferSection from '../components/SpecialOfferSection';
 import {
   MobileAppHeader,
   MobileAppIntro,
-  SwiftShop,
-  CleanBee,
+  ShopEase,
+  FarmerBazar,
+  Lrnrx,
+  CamelLia,
   MenAvatar,
   WomenAvatar,
 } from '../assets';
@@ -97,7 +99,7 @@ const MobileAppDevelopmentPage = () => {
   const projectsData = [
     {
       key: 'shopEase',
-      image: SwiftShop,
+      image: ShopEase,
       title: t('services.mobile.projects.items.shopEase.title'),
       description: t('services.mobile.projects.items.shopEase.description'),
       imageAlt: t('services.mobile.projects.items.shopEase.title'),
@@ -105,7 +107,7 @@ const MobileAppDevelopmentPage = () => {
     },
     {
       key: 'farmerBazar',
-      image: CleanBee,
+      image: FarmerBazar,
       title: t('services.mobile.projects.items.farmerBazar.title'),
       description: t('services.mobile.projects.items.farmerBazar.description'),
       imageAlt: t('services.mobile.projects.items.farmerBazar.title'),
@@ -113,7 +115,7 @@ const MobileAppDevelopmentPage = () => {
     },
     {
       key: 'lrnrx',
-      image: SwiftShop, // Using same image as placeholder
+      image: Lrnrx,
       title: t('services.mobile.projects.items.lrnrx.title'),
       description: t('services.mobile.projects.items.lrnrx.description'),
       imageAlt: t('services.mobile.projects.items.lrnrx.title'),
@@ -121,7 +123,7 @@ const MobileAppDevelopmentPage = () => {
     },
     {
       key: 'camelliaApp',
-      image: CleanBee, // Using same image as placeholder
+      image: CamelLia,
       title: t('services.mobile.projects.items.camelliaApp.title'),
       description: t('services.mobile.projects.items.camelliaApp.description'),
       imageAlt: t('services.mobile.projects.items.camelliaApp.title'),

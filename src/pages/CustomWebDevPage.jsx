@@ -9,9 +9,11 @@ import SideContact from '../components/sidebarContact/SidebarContact';
 import {
   WebDesignHeroImg,
   WebDesignIntroImg,
-  SwiftShop,
-  ArtisanGoods,
-  GreenFitStore,
+  RobbyLeonardi,
+  BrunoSimon,
+  Wokine,
+  LoungeLizardStudio,
+  ToyFight,
   MenAvatar,
   WomenAvatar,
 } from '../assets';
@@ -66,7 +68,7 @@ const CustomWebDevPage = () => {
   const projectsData = [
     {
       key: 'robby_leonardi_portfolio',
-      image: SwiftShop,
+      image: RobbyLeonardi,
       title: t(
         'services.customWebDev.projects.items.robby_leonardi_portfolio.title'
       ),
@@ -82,7 +84,7 @@ const CustomWebDevPage = () => {
     },
     {
       key: 'bruno_simon_portfolio',
-      image: ArtisanGoods,
+      image: BrunoSimon,
       title: t(
         'services.customWebDev.projects.items.bruno_simon_portfolio.title'
       ),
@@ -98,7 +100,7 @@ const CustomWebDevPage = () => {
     },
     {
       key: 'wokine_agency_site',
-      image: GreenFitStore,
+      image: Wokine,
       title: t('services.customWebDev.projects.items.wokine_agency_site.title'),
       description: t(
         'services.customWebDev.projects.items.wokine_agency_site.description'
@@ -110,7 +112,7 @@ const CustomWebDevPage = () => {
     },
     {
       key: 'lounge_lizard_studio',
-      image: SwiftShop, // Using same image as placeholder
+      image: LoungeLizardStudio,
       title: t(
         'services.customWebDev.projects.items.lounge_lizard_studio.title'
       ),
@@ -124,7 +126,7 @@ const CustomWebDevPage = () => {
     },
     {
       key: 'toyfight_studio_portfolio',
-      image: ArtisanGoods, // Using same image as placeholder
+      image: ToyFight,
       title: t(
         'services.customWebDev.projects.items.toyfight_studio_portfolio.title'
       ),

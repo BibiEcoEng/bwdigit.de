@@ -8,9 +8,10 @@ import SideContact from '../components/sidebarContact/SidebarContact';
 import {
   SeoMarketingHeader,
   SeoMarketingIntro,
-  SustainableFashionBrand,
-  DentalClinicLocalSEO,
-  CoachingBusinessLeadGen,
+  EdelweissBakery,
+  MarganicsTextiles,
+  DapperMarketingClient,
+  ServiceBusiness,
   MenAvatar,
   WomenAvatar,
 } from '../assets';
@@ -74,7 +75,7 @@ const MarketingSeoPage = () => {
   const projectsData = [
     {
       key: 'edelweissBakery',
-      image: SustainableFashionBrand,
+      image: EdelweissBakery,
       title: t('services.marketingSeo.projects.items.edelweissBakery.title'),
       description: t(
         'services.marketingSeo.projects.items.edelweissBakery.description'
@@ -84,7 +85,7 @@ const MarketingSeoPage = () => {
     },
     {
       key: 'marganicsTextiles',
-      image: DentalClinicLocalSEO,
+      image: MarganicsTextiles,
       title: t('services.marketingSeo.projects.items.marganicsTextiles.title'),
       description: t(
         'services.marketingSeo.projects.items.marganicsTextiles.description'
@@ -96,7 +97,7 @@ const MarketingSeoPage = () => {
     },
     {
       key: 'dapperMarketingClient',
-      image: CoachingBusinessLeadGen,
+      image: DapperMarketingClient,
       title: t(
         'services.marketingSeo.projects.items.dapperMarketingClient.title'
       ),
@@ -112,7 +113,7 @@ const MarketingSeoPage = () => {
     },
     {
       key: 'serviceBusinessPHM',
-      image: SustainableFashionBrand, // Using same image as placeholder
+      image: ServiceBusiness,
       title: t('services.marketingSeo.projects.items.serviceBusinessPHM.title'),
       description: t(
         'services.marketingSeo.projects.items.serviceBusinessPHM.description'

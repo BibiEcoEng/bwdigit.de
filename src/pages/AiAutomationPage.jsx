@@ -10,9 +10,10 @@ import {
   WebDesignWhyChooseUsImg,
   MenAvatar,
   WomenAvatar,
-  AutomationClientOnboarding,
-  AiToolkitFreelancers,
-  ContentAutomation,
+  ZapierAi,
+  Make,
+  MailChimp,
+  Zapier,
 } from '../assets';
 
 // Import icons
@@ -61,7 +62,7 @@ const AiAutomationPage = ({ openSidebar }) => {
   const projectsData = [
     {
       key: 'zapierAiMailchimp',
-      image: AutomationClientOnboarding,
+      image: ZapierAi,
       title: t('services.ai.projects.items.zapierAiMailchimp.title'),
       description: t(
         'services.ai.projects.items.zapierAiMailchimp.description'
@@ -71,7 +72,7 @@ const AiAutomationPage = ({ openSidebar }) => {
     },
     {
       key: 'makeMailchimp',
-      image: AiToolkitFreelancers,
+      image: Make,
       title: t('services.ai.projects.items.makeMailchimp.title'),
       description: t('services.ai.projects.items.makeMailchimp.description'),
       imageAlt: t('services.ai.projects.items.makeMailchimp.title'),
@@ -79,7 +80,7 @@ const AiAutomationPage = ({ openSidebar }) => {
     },
     {
       key: 'mailchimpAutomation',
-      image: ContentAutomation,
+      image: MailChimp,
       title: t('services.ai.projects.items.mailchimpAutomation.title'),
       description: t(
         'services.ai.projects.items.mailchimpAutomation.description'
@@ -89,7 +90,7 @@ const AiAutomationPage = ({ openSidebar }) => {
     },
     {
       key: 'zapierIntegration',
-      image: AutomationClientOnboarding, // Using same image as placeholder
+      image: Zapier,
       title: t('services.ai.projects.items.zapierIntegration.title'),
       description: t(
         'services.ai.projects.items.zapierIntegration.description'

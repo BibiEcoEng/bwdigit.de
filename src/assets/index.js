@@ -24,17 +24,36 @@ import SeoMarketingIntro from './images/seo-marketing-intro.png';
 import UiDesignHeader from './images/ui-design-header.png';
 import UiDesignIntro from './images/ui-design-intro.png';
 
-// Project Images
-import AiToolkitFreelancers from './images/AI Toolkit for Freelancers.png';
-import ArtisanGoods from './images/Artisan Goods.png';
-import AutomationClientOnboarding from './images/Automation for Client Onboarding.png';
-import ContentAutomation from './images/content-automation.jpg';
-import CleanBee from './images/CleanBee.png';
-import CoachingBusinessLeadGen from './images/Coaching Business Lead Generation.png';
-import DentalClinicLocalSEO from './images/Dental Clinic Local SEO.png';
-import GreenFitStore from './images/GreenFit Store.png';
-import SustainableFashionBrand from './images/Sustainable Fashion Brand.png';
-import SwiftShop from './images/SwiftShop.png';
+// AI Automation Project Images
+import ZapierAi from './images/zapier-ai.png';
+import Zapier from './images/zapier.png';
+import Make from './images/make.png';
+import MailChimp from './images/mail-chimp.png';
+
+// E-commerce Project Images
+import AllBirds from './images/all-birds.png';
+import Tentree from './images/tentree.png';
+import FlyingTigers from './images/flying-tigers.png';
+import Blume from './images/blume.png';
+
+// Marketing & SEO Project Images
+import EdelweissBakery from './images/edelweiss-bakery.png';
+import MarganicsTextiles from './images/marganics-textiles.png';
+import DapperMarketingClient from './images/dapper-marketing-client.png';
+import ServiceBusiness from './images/service-business.png';
+
+// Mobile App Project Images
+import ShopEase from './images/shop-ease.png';
+import FarmerBazar from './images/farmer-bazar.png';
+import Lrnrx from './images/lrnrx.png';
+import CamelLia from './images/camel-lia.png';
+
+// Custom Web Dev Project Images
+import RobbyLeonardi from './images/robby-leonardi.png';
+import BrunoSimon from './images/bruno-simon.png';
+import Wokine from './images/wokine.png';
+import LoungeLizardStudio from './images/lounge-lizard-studio.png';
+import ToyFight from './images/toy-fight.png';
 
 import BackPackwanderOrg from './images/backpackwander-org.png';
 import BakcPackwanderDe from './images/backpackwander-de.png';
@@ -87,16 +106,32 @@ export {
   // Project Images
   MediCoPlus,
   UrbanNest,
-  AiToolkitFreelancers,
-  ArtisanGoods,
-  AutomationClientOnboarding,
-  ContentAutomation,
-  CleanBee,
-  CoachingBusinessLeadGen,
-  DentalClinicLocalSEO,
-  GreenFitStore,
-  SustainableFashionBrand,
-  SwiftShop,
+  // AI Automation Projects
+  ZapierAi,
+  Zapier,
+  Make,
+  MailChimp,
+  // E-commerce Projects
+  AllBirds,
+  Tentree,
+  FlyingTigers,
+  Blume,
+  // Marketing & SEO Projects
+  EdelweissBakery,
+  MarganicsTextiles,
+  DapperMarketingClient,
+  ServiceBusiness,
+  // Mobile App Projects
+  ShopEase,
+  FarmerBazar,
+  Lrnrx,
+  CamelLia,
+  // Custom Web Dev Projects
+  RobbyLeonardi,
+  BrunoSimon,
+  Wokine,
+  LoungeLizardStudio,
+  ToyFight,
   BackPackwanderOrg,
   BakcPackwanderDe,
   SetFreeWay,

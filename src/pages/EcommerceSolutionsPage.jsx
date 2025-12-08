@@ -7,8 +7,10 @@ import SideContact from '../components/sidebarContact/SidebarContact';
 import {
   EcommerceHeader,
   EcommerceIntro,
-  GreenFitStore,
-  ArtisanGoods,
+  Tentree,
+  AllBirds,
+  FlyingTigers,
+  Blume,
   MenAvatar,
   WomenAvatar,
 } from '../assets';
@@ -65,7 +67,7 @@ const EcommerceSolutionsPage = () => {
   const projectsData = [
     {
       key: 'tentree',
-      image: GreenFitStore,
+      image: Tentree,
       title: t('services.ecommerce.projects.items.tentree.title'),
       description: t('services.ecommerce.projects.items.tentree.description'),
       imageAlt: t('services.ecommerce.projects.items.tentree.title'),
@@ -73,7 +75,7 @@ const EcommerceSolutionsPage = () => {
     },
     {
       key: 'allbirds',
-      image: ArtisanGoods,
+      image: AllBirds,
       title: t('services.ecommerce.projects.items.allbirds.title'),
       description: t('services.ecommerce.projects.items.allbirds.description'),
       imageAlt: t('services.ecommerce.projects.items.allbirds.title'),
@@ -81,7 +83,7 @@ const EcommerceSolutionsPage = () => {
     },
     {
       key: 'flyingTiger',
-      image: GreenFitStore, // Using same image as placeholder
+      image: FlyingTigers,
       title: t('services.ecommerce.projects.items.flyingTiger.title'),
       description: t(
         'services.ecommerce.projects.items.flyingTiger.description'
@@ -91,7 +93,7 @@ const EcommerceSolutionsPage = () => {
     },
     {
       key: 'blume',
-      image: ArtisanGoods, // Using same image as placeholder
+      image: Blume,
       title: t('services.ecommerce.projects.items.blume.title'),
       description: t('services.ecommerce.projects.items.blume.description'),
       imageAlt: t('services.ecommerce.projects.items.blume.title'),
