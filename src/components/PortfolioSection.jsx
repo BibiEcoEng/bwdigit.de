@@ -31,11 +31,7 @@ const PROJECTS = [
     image: BwDigitDe,
     url: 'https://bwdigit.de',
   },
-  {
-    key: 'backpackwanderstore',
-    image: BackPackWanderStore,
-    url: 'https://backpackwander.store',
-  },
+
   {
     key: 'medicoplus',
     image: MediCoPlus,

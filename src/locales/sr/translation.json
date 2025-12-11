@@ -674,8 +674,8 @@
         }
       },
       "projects": {
-        "title": "Stvarni sajtovi malih firmi za inspiraciju",
-        "subtitle": "Butični dućani, male firme i nišni brendovi sa čistim UX-om, modernim dizajnom i solidnom upotrebljivošću — korisne reference za web, e-commerce, mobilne ili servis projekte.",
+        "title": "Primeri sajtova malih biznisa za inspiraciju",
+        "subtitle": "Pregled malih firmi i lokalnih brendova sa jasnim UX-om, modernim izgledom i praktičnom organizacijom — odlični primeri za web, online prodavnice ili digitalne servise.",
         "items": {
           "klurBeauty": {
             "title": "Klur Skincare",
@@ -919,8 +919,8 @@
         }
       },
       "projects": {
-        "title": "Istaknuti AI & Automacioni Projekti",
-        "subtitle": "Živi alati i integracije koji pokazuju realne primene AI‑i automatizacije poslovnih i marketinških procesa",
+        "title": "AI i projekti automatizacije",
+        "subtitle": "Prikaz praktičnih alata i integracija koje pokazuju kako veštačka inteligencija i automatizacija pojednostavljuju poslovne procese.",
         "items": {
           "zapierAiMailchimp": {
             "title": "AI‑vođena E‑mail Automatizacija (Zapier + Mailchimp)",
@@ -1093,7 +1093,7 @@
         }
       },
       "projects": {
-        "title": "Uspešni Primeri Mobile App Razvoja",
+        "title": "Uspešni projekti razvoja mobilnih aplikacija",
         "items": {
           "shopEase": {
             "title": "ShopEase",
@@ -1386,8 +1386,8 @@
         }
       },
       "projects": {
-        "title": "Naši poslednji E‑commerce projekti",
-        "subtitle": "Pregled stvarnih, aktivnih online prodavnica — korisne reference za dizajn, raspored i korisničko iskustvo.",
+        "title": "Naši e-commerce projekti",
+        "subtitle": "Primeri aktivnih online prodavnica — korisni za ideje oko dizajna, strukture stranica i kupovnog iskustva.",
         "items": {
           "tentree": {
             "title": "Tentree",
@@ -1556,8 +1556,8 @@
         }
       },
       "projects": {
-        "title": "Istaknuti SEO & Marketing Projekti",
-        "subtitle": "Stvarne studije slučaja koje pokazuju merljiv rast za male firme i nišne sajtove zahvaljujući SEO‑u i marketingu.",
+        "title": "SEO i marketing projekti",
+        "subtitle": "Stvarni rezultati i studije slučaja koje pokazuju kako pravilna strategija može da unapredi vidljivost i rast manjih biznisa.",
         "items": {
           "edelweissBakery": {
             "title": "Edelweiss Bakery – Lokalni SEO & rast saobraćaja",
@@ -1788,8 +1788,8 @@
         "cta": "Počni sada"
       },
       "projects": {
-        "title": "Primeri realnih web‑sajtova i portfolija za inspiraciju",
-        "subtitle": "Evo nekoliko live portfolija i agencijskih sajtova za ideje i referencu:",
+        "title": "Web-dizajn i razvoj: primeri za inspiraciju",
+        "subtitle": "Nekoliko aktivnih portfolija i agencijskih sajtova koji mogu pomoći pri planiranju vaših projekata.",
         "items": {
           "robby_leonardi_portfolio": {
             "title": "Robby Leonardi – Interaktivni / Ilustratorski Portfolio",

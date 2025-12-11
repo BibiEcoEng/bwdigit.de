@@ -675,8 +675,8 @@
       },
 
       "projects": {
-        "title": "Echte kleine Unternehmen – Websites als Design-Inspiration",
-        "subtitle": "Boutiquen, kleine Firmen und Nischenmarken mit sauberem UX, modernem Design und guter Usability – ideal als Referenzen für Web-, E-Commerce-, Mobile- oder Service-Projekte.",
+        "title": "Webseiten kleiner Unternehmen als Inspiration",
+        "subtitle": "Eine Auswahl kleiner Firmen und lokaler Marken mit klarer UX, modernem Aufbau und guter Orientierung – hilfreiche Beispiele für Web-, Shop- und digitale Serviceprojekte.",
         "items": {
           "klurBeauty": {
             "title": "Klur Skincare",
@@ -920,8 +920,8 @@
         }
       },
       "projects": {
-        "title": "Ausgewählte AI‑ & Automationsprojekte",
-        "subtitle": "Live‑Tools und Integrationen, die echte AI‑ und Workflow‑Automatisierungen zeigen",
+        "title": "KI- und Automatisierungsprojekte",
+        "subtitle": "Live-Beispiele und Integrationen, die zeigen, wie KI und Automatisierung Abläufe vereinfachen und Prozesse effizienter machen.",
         "items": {
           "zapierAiMailchimp": {
             "title": "KI‑gestützte E‑Mail‑Automatisierung (Zapier + Mailchimp)",
@@ -1094,7 +1094,7 @@
         }
       },
       "projects": {
-        "title": "Erfolgsprojekte: Mobile App Entwicklung",
+        "title": "Erfolgreiche Mobile-App-Projekte",
         "items": {
           "shopEase": {
             "title": "ShopEase",
@@ -1386,8 +1386,8 @@
         }
       },
       "projects": {
-        "title": "Unsere aktuellen E‑Commerce Projekte",
-        "subtitle": "Ein Blick auf echte, aktive Shops — ideal als Referenzen für Design, Layout und Nutzererfahrung.",
+        "title": "Unsere E-Commerce-Projekte",
+        "subtitle": "Aktive Onlineshops als Beispiele für gutes Design, klaren Aufbau und ein stimmiges Einkaufserlebnis.",
         "items": {
           "tentree": {
             "title": "Tentree",
@@ -1555,8 +1555,8 @@
         }
       },
       "projects": {
-        "title": "Ausgewählte SEO‑ & Marketing‑Projekte",
-        "subtitle": "Echte Fallstudien, die messbares Wachstum für kleine Unternehmen und Nischenprojekte zeigen.",
+        "title": "SEO- und Marketingprojekte",
+        "subtitle": "Fallbeispiele, die zeigen, wie gezielte Strategien die Sichtbarkeit erhöhen und das Wachstum kleiner Unternehmen unterstützen.",
         "items": {
           "edelweissBakery": {
             "title": "Edelweiss Bakery – Lokales SEO & Traffic‑Wachstum",
@@ -1784,8 +1784,8 @@
         "cta": "Starte dein Projekt noch heute"
       },
       "projects": {
-        "title": "Echte Web‑Design & Entwicklungswebseiten zur Inspiration",
-        "subtitle": "Hier sind einige live Portfolios und Agenturseiten als Ideenquelle:",
+        "title": "Webdesign & Entwicklung: Inspiration",
+        "subtitle": "Aktive Portfolios und Agenturseiten, die als Inspiration für eigene Projekte dienen können.",
         "items": {
           "robby_leonardi_portfolio": {
             "title": "Robby Leonardi – Interaktives / Illustrations Portfolio",
